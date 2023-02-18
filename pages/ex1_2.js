@@ -1016,6 +1016,7 @@ function ex1(props) {
 export async function getServerSideProps(context) {
     // api 이용해서 데이터 불러오기 (async, await으로 기다려주기)
     const id = context.query.id;
+    console.log(id);
     // const res = await fetch("https://example_site.com/user_data");
     // fetch("http://localhost:3000/api/list2")
     // const res = fetch("http://localhost:3000/api/list2", {
@@ -1037,7 +1038,7 @@ export async function getServerSideProps(context) {
 
     const res = await axios
         // .get(`http://localhost:3000/api/list2`, {
-        .get(`/api/list2`, {
+        .get(`api/list2`, {
             params: {
                 id: id,
             },
