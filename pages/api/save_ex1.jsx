@@ -1,6 +1,6 @@
-import { NextApiRequest, NextApiResponse } from "next";
+// import { NextApiRequest, NextApiResponse } from "next";
 const db = require("../../db/db");
-
+console.log(db);
 export default function save(req, res) {
     // console.log(req.body.name);
     // console.log(req.body);
