@@ -1472,7 +1472,8 @@ export async function getServerSideProps(context) {
     //     .then((data) => console.log(data));
 
     const res = await axios
-        .get(`http://127.0.0.1:80/api/list2`, {
+        // .get(`http://localhost:3000/api/list2`, {
+        .get(`https://${process.env.VERCEL_URL}/api/list2`, {
             params: {
                 id: id,
             },
