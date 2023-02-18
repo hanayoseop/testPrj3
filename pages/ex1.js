@@ -938,6 +938,7 @@ const PrettoSlider = styled(Slider)({
     },
     "& .MuiSlider-track": {
         border: "none",
+        backgroundColor: "#52af77",
     },
     "& .MuiSlider-thumb": {
         height: 24,
