@@ -1059,7 +1059,7 @@ export async function getServerSideProps(context) {
     console.log(`${process.env.VERCEL_URL}/api/list2`);
     const res = await axios
         // .get(`http://localhost:3000/api/list2`, {
-        .get(`${process.env.VERCEL_URL}/api/list2`, {
+        .get(`https://${process.env.VERCEL_URL}/api/list2`, {
             // .post(`/api/list2`, {
             params: {
                 id: id,
