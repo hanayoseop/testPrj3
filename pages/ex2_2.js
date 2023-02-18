@@ -1495,97 +1495,97 @@ export async function getServerSideProps(context) {
     };
 }
 
-// const PrettoSlider = styled(Slider)({
-//     // color: "#52af77",
-//     color: "#97DECE",
-//     height: 6,
-//     marginTop: 1,
-//     marginBottom: 1,
-//     "& .MuiSlider-track": {
-//         border: "none",
-//     },
-//     "&.Mui-disabled": {
-//         color: "#97DECE",
-//     },
-//     "& .MuiSlider-thumb": {
-//         height: 18,
-//         width: 18,
-//         backgroundColor: "#fff",
-//         border: "2px solid currentColor",
-//         "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
-//             boxShadow: "inherit",
-//         },
-//         "&:before": {
-//             display: "none",
-//         },
-//     },
-//     "& .MuiSlider-valueLabel": {
-//         lineHeight: 1.2,
-//         fontSize: 12,
-//         background: "unset",
-//         padding: 0,
-//         width: 32,
-//         height: 32,
-//         borderRadius: "50% 50% 50% 0",
-//         // backgroundColor: "#52af77",
-//         backgroundColor: "#62B6B7",
-//         transformOrigin: "bottom left",
-//         transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
-//         "&:before": { display: "none" },
-//         "&.MuiSlider-valueLabelOpen": {
-//             transform: "translate(50%, -100%) rotate(-45deg) scale(1)",
-//         },
-//         "& > *": {
-//             transform: "rotate(45deg)",
-//         },
-//     },
-// });
+const PrettoSlider = styled(Slider)({
+    // color: "#52af77",
+    color: "#97DECE",
+    height: 6,
+    marginTop: 1,
+    marginBottom: 1,
+    "& .MuiSlider-track": {
+        border: "none",
+    },
+    "&.Mui-disabled": {
+        color: "#97DECE",
+    },
+    "& .MuiSlider-thumb": {
+        height: 18,
+        width: 18,
+        backgroundColor: "#fff",
+        border: "2px solid currentColor",
+        "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
+            boxShadow: "inherit",
+        },
+        "&:before": {
+            display: "none",
+        },
+    },
+    "& .MuiSlider-valueLabel": {
+        lineHeight: 1.2,
+        fontSize: 12,
+        background: "unset",
+        padding: 0,
+        width: 32,
+        height: 32,
+        borderRadius: "50% 50% 50% 0",
+        // backgroundColor: "#52af77",
+        backgroundColor: "#62B6B7",
+        transformOrigin: "bottom left",
+        transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
+        "&:before": { display: "none" },
+        "&.MuiSlider-valueLabelOpen": {
+            transform: "translate(50%, -100%) rotate(-45deg) scale(1)",
+        },
+        "& > *": {
+            transform: "rotate(45deg)",
+        },
+    },
+});
 
-// const PrettoSlider2 = styled(Slider)({
-//     // color: "#52af77",
-//     color: "#1160AA",
-//     height: 6,
-//     marginTop: 1,
-//     marginBottom: 1,
-//     "& .MuiSlider-track": {
-//         border: "none",
-//     },
-//     "&.Mui-disabled": {
-//         color: "#1160AA",
-//     },
-//     "& .MuiSlider-thumb": {
-//         height: 18,
-//         width: 18,
-//         backgroundColor: "#fff",
-//         border: "2px solid currentColor",
-//         "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
-//             boxShadow: "inherit",
-//         },
-//         "&:before": {
-//             display: "none",
-//         },
-//     },
-//     "& .MuiSlider-valueLabel": {
-//         lineHeight: 1.2,
-//         fontSize: 12,
-//         background: "unset",
-//         padding: 0,
-//         width: 32,
-//         height: 32,
-//         borderRadius: "50% 50% 50% 0",
-//         // backgroundColor: "#52af77",
-//         backgroundColor: "#161D6E",
-//         transformOrigin: "bottom left",
-//         transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
-//         "&:before": { display: "none" },
-//         "&.MuiSlider-valueLabelOpen": {
-//             transform: "translate(50%, -100%) rotate(-45deg) scale(1)",
-//         },
-//         "& > *": {
-//             transform: "rotate(45deg)",
-//         },
-//     },
-// });
+const PrettoSlider2 = styled(Slider)({
+    // color: "#52af77",
+    color: "#1160AA",
+    height: 6,
+    marginTop: 1,
+    marginBottom: 1,
+    "& .MuiSlider-track": {
+        border: "none",
+    },
+    "&.Mui-disabled": {
+        color: "#1160AA",
+    },
+    "& .MuiSlider-thumb": {
+        height: 18,
+        width: 18,
+        backgroundColor: "#fff",
+        border: "2px solid currentColor",
+        "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
+            boxShadow: "inherit",
+        },
+        "&:before": {
+            display: "none",
+        },
+    },
+    "& .MuiSlider-valueLabel": {
+        lineHeight: 1.2,
+        fontSize: 12,
+        background: "unset",
+        padding: 0,
+        width: 32,
+        height: 32,
+        borderRadius: "50% 50% 50% 0",
+        // backgroundColor: "#52af77",
+        backgroundColor: "#161D6E",
+        transformOrigin: "bottom left",
+        transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
+        "&:before": { display: "none" },
+        "&.MuiSlider-valueLabelOpen": {
+            transform: "translate(50%, -100%) rotate(-45deg) scale(1)",
+        },
+        "& > *": {
+            transform: "rotate(45deg)",
+        },
+    },
+});
 
 const PrettoSlider = styled(Slider)({
     // color: "#52af77",
