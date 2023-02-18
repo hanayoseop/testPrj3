@@ -1472,7 +1472,7 @@ export async function getServerSideProps(context) {
     //     .then((data) => console.log(data));
 
     const res = await axios
-        .get(`http://localhost:3000/api/list2`, {
+        .get(`/api/list2`, {
             params: {
                 id: id,
             },

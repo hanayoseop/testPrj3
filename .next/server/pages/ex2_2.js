@@ -1,1915 +1,292 @@
 "use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 778;
-exports.ids = [778];
+exports.id = "pages/ex2_2";
+exports.ids = ["pages/ex2_2"];
 exports.modules = {
 
-/***/ 6897:
+/***/ "./pages/ex2_2.js":
+/*!************************!*\
+  !*** ./pages/ex2_2.js ***!
+  \************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
-/* harmony export */   "getServerSideProps": () => (/* binding */ getServerSideProps)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6689);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(7518);
-/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _mui_material_Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1582);
-/* harmony import */ var _mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Input__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(3819);
-/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Button__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _mui_material_FormControl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(8891);
-/* harmony import */ var _mui_material_FormControl__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_mui_material_FormControl__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(911);
-/* harmony import */ var _mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _pages_ex_header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(4142);
-/* harmony import */ var _mui_material_Slider__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(3682);
-/* harmony import */ var _mui_material_Slider__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Slider__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(19);
-/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Box__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var _mui_material_Grid__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(5612);
-/* harmony import */ var _mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(7163);
-/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var _mui_icons_material_VolumeUp__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(8610);
-/* harmony import */ var _mui_icons_material_VolumeUp__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_VolumeUp__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var _mui_material_Tooltip__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(7229);
-/* harmony import */ var _mui_material_Tooltip__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Tooltip__WEBPACK_IMPORTED_MODULE_12__);
-/* harmony import */ var _mui_material_Table__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(9181);
-/* harmony import */ var _mui_material_Table__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Table__WEBPACK_IMPORTED_MODULE_13__);
-/* harmony import */ var _mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(8823);
-/* harmony import */ var _mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14__);
-/* harmony import */ var _mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(8099);
-/* harmony import */ var _mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15__);
-/* harmony import */ var _mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(443);
-/* harmony import */ var _mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16__);
-/* harmony import */ var _mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(5953);
-/* harmony import */ var _mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17__);
-/* harmony import */ var _mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(4848);
-/* harmony import */ var _mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18__);
-/* harmony import */ var _mui_material_Paper__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(1598);
-/* harmony import */ var _mui_material_Paper__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Paper__WEBPACK_IMPORTED_MODULE_19__);
-/* harmony import */ var _mui_material_TextField__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(6042);
-/* harmony import */ var _mui_material_TextField__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_20__);
-/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(9648);
-/* harmony import */ var _mui_material_Stack__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(8742);
-/* harmony import */ var _mui_material_Stack__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Stack__WEBPACK_IMPORTED_MODULE_22__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(1853);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_23__);
-/* harmony import */ var _mui_x_data_grid__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(7738);
-/* harmony import */ var _mui_x_data_grid__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_mui_x_data_grid__WEBPACK_IMPORTED_MODULE_24__);
-/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(8442);
-/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_mui_material_styles__WEBPACK_IMPORTED_MODULE_25__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(997);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__);
-var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_21__]);
-axios__WEBPACK_IMPORTED_MODULE_21__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-function ValueLabelComponent(props) {
-  const {
-    children,
-    value
-  } = props;
-  return /*#__PURE__*/_jsx(Tooltip, {
-    enterTouchDelay: 0,
-    placement: "top",
-    title: value,
-    children: children
-  });
-}
-
-function calculate(array) {
-  let len = 0; // console.log(array);
-
-  for (const num of array) {
-    if (num > 0) {
-      len += 1;
-    }
-  } // console.log("dddd" + len);
-
-
-  if (len == 0) {
-    return 0;
-  } else {
-    return (array.reduce((a, b) => a + b) / len).toFixed();
-  }
-}
-
-function ex2(props) {
-  const router = (0,next_router__WEBPACK_IMPORTED_MODULE_23__.useRouter)();
-  const {
-    0: name,
-    1: setName
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("");
-  const {
-    0: school,
-    1: setSchool
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("");
-  const {
-    0: result_class,
-    1: setResultClass
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("");
-  const {
-    0: result_comment,
-    1: setComment
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("");
-  const {
-    0: sub1,
-    1: setSub1
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub2,
-    1: setSub2
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub3,
-    1: setSub3
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: overall1,
-    1: setOverall1
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub4,
-    1: setSub4
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub5,
-    1: setSub5
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: overall2,
-    1: setOverall2
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub6,
-    1: setSub6
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub7,
-    1: setSub7
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub8,
-    1: setSub8
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: overall3,
-    1: setOverall3
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub9,
-    1: setSub9
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub10,
-    1: setSub10
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub11,
-    1: setSub11
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub12,
-    1: setSub12
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub13,
-    1: setSub13
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: overall4,
-    1: setOverall4
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub14,
-    1: setSub14
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub15,
-    1: setSub15
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub16,
-    1: setSub16
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub17,
-    1: setSub17
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sub18,
-    1: setSub18
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: overall5,
-    1: setOverall5
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sum_overall1,
-    1: setSumOverall1
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sum_overall2,
-    1: setSumOverall2
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  const {
-    0: sum_overall3,
-    1: setSumOverall3
-  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    // console.log(props.data);
-    // console.log(props.data.NO);
-    setSub1(props.data.RESULT01);
-    setSub2(props.data.RESULT02);
-    setSub3(props.data.RESULT03);
-    setSub4(props.data.RESULT04);
-    setSub5(props.data.RESULT05);
-    setSub6(props.data.RESULT06);
-    setSub7(props.data.RESULT07);
-    setSub8(props.data.RESULT08);
-    setSub9(props.data.RESULT09);
-    setSub10(props.data.RESULT10);
-    setSub11(props.data.RESULT11);
-    setSub12(props.data.RESULT12);
-    setSub13(props.data.RESULT13);
-    setSub14(props.data.RESULT14);
-    setSub15(props.data.RESULT15);
-    setSub16(props.data.RESULT16);
-    setSub17(props.data.RESULT17);
-    setSub18(props.data.RESULT18);
-    setResultClass(props.data.CLASS);
-    setComment(props.data.COMMENT);
-    setName(props.data.NAME);
-    setSchool(props.data.SCHOOL);
-  }, []);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([sub1, sub2, sub3]); // console.log(sum);
-
-    setOverall1(sum);
-  }, [sub1, sub2, sub3]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([sub4, sub5]); // console.log(sum);
-
-    setOverall2(sum);
-  }, [sub4, sub5]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([sub6, sub7, sub8]); // console.log(sum);
-
-    setOverall3(sum);
-  }, [sub6, sub7, sub8]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([sub9, sub10, sub11, sub12, sub13]); // console.log(sum);
-
-    setOverall4(sum);
-  }, [sub9, sub10, sub11, sub12, sub13]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([sub14, sub15, sub16, sub17, sub18]); // console.log(sum);
-
-    setOverall5(sum);
-  }, [sub14, sub15, sub16, sub17, sub18]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([overall1 * 1, overall2 * 1, overall3 * 1]); // console.log(sum);
-
-    setSumOverall1(sum);
-  }, [overall1, overall2, overall3]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([overall4 * 1, overall5 * 1]); // console.log(sum);
-
-    setSumOverall2(sum);
-  }, [overall4, overall5]);
-  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
-    let sum = calculate([sum_overall1 * 1, sum_overall2 * 1]); // console.log(sum);
-
-    setSumOverall3(sum);
-  }, [sum_overall1, sum_overall2]);
-
-  const onChange = e => {
-    switch (e.target.name) {
-      case "name":
-        setName(e.target.value);
-        break;
-
-      case "result_class":
-        setResultClass(e.target.value); // console.log(e.target.value);
-
-        break;
-
-      case "result_comment":
-        setComment(e.target.value);
-        break;
-
-      default:
-        break;
-    } // console.log(name);
-
-  };
-
-  const onChange2 = e => {
-    setSchool(e.target.value); // console.log(name);
-  };
-
-  const handleSliderChange = (event, newValue) => {
-    switch (event.target.name) {
-      case "sub1":
-        setSub1(newValue);
-        break;
-
-      case "sub2":
-        setSub2(newValue);
-        break;
-
-      case "sub3":
-        setSub3(newValue);
-        break;
-
-      case "sub4":
-        setSub4(newValue);
-        break;
-
-      case "sub5":
-        setSub5(newValue);
-        break;
-
-      case "sub6":
-        setSub6(newValue);
-        break;
-
-      case "sub7":
-        setSub7(newValue);
-        break;
-
-      case "sub8":
-        setSub8(newValue);
-        break;
-
-      case "sub9":
-        setSub9(newValue);
-        break;
-
-      case "sub10":
-        setSub10(newValue);
-        break;
-
-      case "sub11":
-        setSub11(newValue);
-        break;
-
-      case "sub12":
-        setSub12(newValue);
-        break;
-
-      case "sub13":
-        setSub13(newValue);
-        break;
-
-      case "sub14":
-        setSub14(newValue);
-        break;
-
-      case "sub15":
-        setSub15(newValue);
-        break;
-
-      case "sub16":
-        setSub16(newValue);
-        break;
-
-      case "sub17":
-        setSub17(newValue);
-        break;
-
-      case "sub18":
-        setSub18(newValue);
-        break;
-
-      default:
-        break;
-    } // console.log(event.target);
-
-  };
-
-  const handleInputChange = event => {
-    switch (event.target.name) {
-      case "sub1":
-        setSub1(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub2":
-        setSub2(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub3":
-        setSub3(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub4":
-        setSub4(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub5":
-        setSub5(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub6":
-        setSub6(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub7":
-        setSub7(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub8":
-        setSub8(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub9":
-        setSub9(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub10":
-        sub10(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub11":
-        setSub11(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub12":
-        setSub12(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub13":
-        setSub13(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub14":
-        setSub14(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub15":
-        setSub15(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub16":
-        setSub16(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub17":
-        setSub17(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      case "sub18":
-        setSub18(event.target.value === "" ? "" : Number(event.target.value));
-        break;
-
-      default:
-        break;
-    }
-  };
-
-  const handleBlur = () => {
-    if (sub1 < 0) {
-      setSub1(0);
-      console.log("blurSub1=0");
-    } else if (sub1 > 100) {
-      setSub1(100);
-      console.log("blurSub1=100");
-    } else if (sub2 < 0) {
-      setSub2(0);
-      console.log("blurSub2=0");
-    } else if (sub2 > 100) {
-      setSub2(100);
-      console.log("blurSub2=100");
-    }
-  };
-
-  function Save() {
-    fetch("api/save_ex2", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify({
-        name: name,
-        school: school,
-        result01: sub1,
-        result02: sub2,
-        result03: sub3,
-        result04: sub4,
-        result05: sub5,
-        result06: sub6,
-        result07: sub7,
-        result08: sub8,
-        result09: sub9,
-        result10: sub10,
-        result11: sub11,
-        result12: sub12,
-        result13: sub13,
-        result14: sub14,
-        result15: sub15,
-        result16: sub16,
-        result17: sub17,
-        result18: sub18,
-        result_class: result_class,
-        comment: result_comment
-      })
-    }).then(res => callBack(res)) // .then((data) => {
-    .then(data => {// console.log(data);
-    });
-  }
-
-  function callBack(res) {
-    // alert("Complete  Save!");
-    if (res.status == 200) {
-      alert("Complete  Save!");
-      window.location.href = "/";
-    } else {
-      alert(res.message);
-    }
-  }
-
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)(Info, {
-    children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx("div", {
-      className: "Header",
-      children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-        className: "headerLabel",
-        children: "RITE DIAGNOSTIC TEST (EX2)"
-      })
-    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx("div", {
-      className: "info",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Stack__WEBPACK_IMPORTED_MODULE_22___default()), {
-        sx: {
-          pt: 3
-        },
-        direction: "row",
-        spacing: 1,
-        justifyContent: "center" // alignItems="center"
-        ,
-        alignContent: "center",
-        children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-          className: "infoLabel",
-          htmlFor: "component-simple",
-          children: "Name"
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-          className: "infoInput",
-          name: "name",
-          id: "name",
-          onChange: onChange,
-          value: name // placeholder="Enter Name."
-          ,
-          inputProps: {
-            style: {
-              fontSize: 15,
-              width: 150,
-              textAlign: "center"
-            }
-          }
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-          className: "infoLabel",
-          htmlFor: "component-simple",
-          children: "School/Grade"
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-          className: "infoInput",
-          id: "school",
-          onChange: onChange2,
-          value: school // placeholder="Enter School/Grade."
-          ,
-          inputProps: {
-            style: {
-              fontSize: 15,
-              width: 150,
-              textAlign: "center"
-            }
-          }
-        })]
-      })
-    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx("div", {
-      className: "Subject",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Box__WEBPACK_IMPORTED_MODULE_8___default()), {
-        margin: 4,
-        children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-          className: "subjectLabel",
-          htmlFor: "component-simple",
-          children: "Vocabulary"
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "1) Spelling"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub1 == "number" ? sub1 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              color: "primary",
-              id: "sub1",
-              name: "sub1"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub1",
-              value: sub1,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "2) Meaning"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub2 == "number" ? sub2 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub2"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub2",
-              value: sub2,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "3) Vsage"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub3 == "number" ? sub3 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub3"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub3",
-              value: sub3,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)("div", {
-          className: "overallDiv",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            children: "Overall\xA0:\xA0"
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            name: "overall1",
-            children: overall1
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-          className: "subjectLabel",
-          htmlFor: "component-simple",
-          children: "Reading Comprehension"
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "1) Main idea"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub4 == "number" ? sub4 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub4"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub4",
-              value: sub4,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "2) Key details"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub5 == "number" ? sub5 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub5"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub5",
-              value: sub5,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)("div", {
-          className: "overallDiv",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            children: "Overall\xA0:\xA0"
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            name: "overall2",
-            children: overall2
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-          className: "subjectLabel",
-          htmlFor: "component-simple",
-          children: "Grammar"
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "1) Basic"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub6 == "number" ? sub6 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub6"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub6",
-              value: sub6,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "2) Intermediate"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub7 == "number" ? sub7 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub7"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub7",
-              value: sub7,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "3) Advance"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub8 == "number" ? sub8 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub8"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub8",
-              value: sub8,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)("div", {
-          className: "overallDiv",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            children: "Overall\xA0:\xA0"
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            name: "overall3",
-            children: overall3
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx("br", {}), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-          className: "subjectLabel",
-          htmlFor: "component-simple",
-          children: "Oral"
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "1) Listening Comprehension"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub9 == "number" ? sub9 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              color: "primary",
-              id: "sub9",
-              name: "sub9"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub9",
-              value: sub9,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "2) Vocabulary"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub10 == "number" ? sub10 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub10"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub10",
-              value: sub10,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "3) Structure"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub11 == "number" ? sub11 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub11"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub11",
-              value: sub11,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "4) Fluency"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub12 == "number" ? sub12 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub12"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub12",
-              value: sub12,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "5) Communication"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub13 == "number" ? sub13 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub13"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub13",
-              value: sub13,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)("div", {
-          className: "overallDiv",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            children: "Overall\xA0:\xA0"
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            name: "overall4",
-            children: overall4
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-          className: "subjectLabel",
-          htmlFor: "component-simple",
-          children: "Writing"
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "1) Grammar"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub14 == "number" ? sub14 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              color: "primary",
-              id: "sub14",
-              name: "sub14"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub14",
-              value: sub14,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "2) Vocabulary"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub15 == "number" ? sub15 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub15"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub15",
-              value: sub15,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "3) Convention"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub16 == "number" ? sub16 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub16"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub16",
-              value: sub16,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "4) Structure"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub17 == "number" ? sub17 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub17"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub17",
-              value: sub17,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {
-          id: "input-slider",
-          className: "subjectSlider",
-          gutterBottom: true,
-          children: "5) Content"
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-          container: true,
-          spacing: 2,
-          alignItems: "center",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            xs: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx(PrettoSlider2, {
-              disabled: true,
-              valueLabelDisplay: "auto",
-              value: typeof sub18 == "number" ? sub18 : 0,
-              onChange: handleSliderChange,
-              "aria-labelledby": "input-slider",
-              name: "sub18"
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {
-            item: true,
-            children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-              name: "sub18",
-              value: sub18,
-              size: "small",
-              onChange: handleInputChange,
-              onBlur: handleBlur,
-              inputProps: {
-                step: 1,
-                min: 0,
-                max: 100,
-                type: "number",
-                "aria-labelledby": "input-slider",
-                readOnly: true
-              }
-            })
-          })]
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)("div", {
-          className: "overallDiv",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            children: "Overall\xA0:\xA0"
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-            className: "overallLabel",
-            htmlFor: "component-simple",
-            name: "overall5",
-            children: overall5
-          })]
-        })]
-      })
-    }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx("div", {
-      className: "Result",
-      children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16___default()), {
-        component: (_mui_material_Paper__WEBPACK_IMPORTED_MODULE_19___default()),
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_Table__WEBPACK_IMPORTED_MODULE_13___default()), {
-          sx: {
-            minWidth: "100%"
-          },
-          "aria-label": "simple table",
-          children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17___default()), {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18___default()), {
-              sx: {
-                "& th": {
-                  padding: "5px 5px",
-                  fontSize: "1.1rem",
-                  //Result Table Header font size
-                  fontWeight: "bold"
-                }
-              },
-              children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                width: "15%",
-                children: "Voca / R/C / Gr"
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                width: "15%",
-                children: "Oral / Writing"
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                width: "15%",
-                children: "Overall"
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                width: "15%",
-                children: "Class"
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                width: "40%",
-                children: "Comment"
-              })]
-            })
-          }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14___default()), {
-            children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxs)((_mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18___default()), {
-              sx: {
-                "&:last-child td, &:last-child th": {
-                  border: 0
-                }
-              },
-              children: [/*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                sx: {
-                  padding: "4px 4px",
-                  borderRight: "2px solid black",
-                  fontSize: "10rem"
-                },
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-                  className: "resultLabel",
-                  name: "result_phonnics",
-                  children: sum_overall1
-                })
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                sx: {
-                  padding: "4px 4px",
-                  borderRight: "2px solid black",
-                  fontSize: "10rem"
-                },
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-                  name: "result_language",
-                  className: "resultLabel",
-                  children: sum_overall2
-                })
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                sx: {
-                  padding: "4px 4px",
-                  borderRight: "2px solid black",
-                  fontSize: "10rem"
-                },
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {
-                  name: "result_overall",
-                  className: "resultLabel",
-                  children: sum_overall3
-                })
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                sx: {
-                  padding: "4px 4px",
-                  borderRight: "2px solid black",
-                  fontSize: "10rem"
-                },
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {
-                  name: "result_class",
-                  className: "resultLabel",
-                  inputProps: {
-                    style: {
-                      textAlign: "center"
-                    },
-                    readOnly: true
-                  },
-                  onChange: onChange,
-                  value: result_class
-                })
-              }), /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {
-                align: "center",
-                sx: {
-                  padding: "4px 4px",
-                  borderRight: "2px solid black",
-                  fontSize: "10rem"
-                },
-                children: /*#__PURE__*/react_jsx_runtime__WEBPACK_IMPORTED_MODULE_26__.jsx((_mui_material_TextField__WEBPACK_IMPORTED_MODULE_20___default()), {
-                  className: "resultComment",
-                  name: "result_comment",
-                  fullWidth: true,
-                  id: "outlined-multiline-static",
-                  multiline: true,
-                  rows: 4,
-                  onChange: onChange,
-                  value: result_comment,
-                  InputProps: {
-                    style: {
-                      fontSize: 13,
-                      padding: 3
-                    },
-                    readOnly: true
-                  }
-                })
-              })]
-            })
-          })]
-        })
-      })
-    })]
-  });
-}
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ex2);
-async function getServerSideProps(context) {
-  // api 이용해서 데이터 불러오기 (async, await으로 기다려주기)
-  const id = context.query.id; // const res = await fetch("https://example_site.com/user_data");
-  // fetch("http://localhost:3000/api/list2")
-  // const res = fetch("http://localhost:3000/api/list2", {
-  //     method: "GET",
-  //     headers: {
-  //         "Content-Type": "application/json",
-  //     },
-  //     body: JSON.stringify({
-  //         no: id,
-  //     }),
-  // });
-  // const res = fetch(`http://localhost:3000/api/list2/${id}`, {
-  //     headers: {
-  //         Accept: "application/json",
-  //     },
-  // })
-  //     .then((data) => data.json())
-  //     .then((data) => console.log(data));
-
-  const res = await axios__WEBPACK_IMPORTED_MODULE_21__["default"].get(`http://localhost:3000/api/list2`, {
-    params: {
-      id: id
-    },
-    headers: {
-      "Content-Type": "application/json"
-    }
-  }).then(function (res) {
-    // console.log(res.data[0]);
-    return res.data[0];
-  }); // page에 props로 전달하기위해, json 형식으로 변경해주기
-  // 페이지 props로 전달하기 (json 형식만 가능)
-
-  return {
-    props: {
-      data: res
-    }
-  };
-}
-const PrettoSlider = /*#__PURE__*/styled_components__WEBPACK_IMPORTED_MODULE_1___default()((_mui_material_Slider__WEBPACK_IMPORTED_MODULE_7___default())).withConfig({
-  displayName: "ex2_2__PrettoSlider",
-  componentId: "sc-195wyxu-0"
-})({
-  // color: "#52af77",
-  color: "#97DECE",
-  height: 6,
-  marginTop: 1,
-  marginBottom: 1,
-  "& .MuiSlider-track": {
-    border: "none"
-  },
-  "&.Mui-disabled": {
-    color: "#97DECE"
-  },
-  "& .MuiSlider-thumb": {
-    height: 18,
-    width: 18,
-    backgroundColor: "#fff",
-    border: "2px solid currentColor",
-    "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
-      boxShadow: "inherit"
-    },
-    "&:before": {
-      display: "none"
-    }
-  },
-  "& .MuiSlider-valueLabel": {
-    lineHeight: 1.2,
-    fontSize: 12,
-    background: "unset",
-    padding: 0,
-    width: 32,
-    height: 32,
-    borderRadius: "50% 50% 50% 0",
-    // backgroundColor: "#52af77",
-    backgroundColor: "#62B6B7",
-    transformOrigin: "bottom left",
-    transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
-    "&:before": {
-      display: "none"
-    },
-    "&.MuiSlider-valueLabelOpen": {
-      transform: "translate(50%, -100%) rotate(-45deg) scale(1)"
-    },
-    "& > *": {
-      transform: "rotate(45deg)"
-    }
-  }
-});
-const PrettoSlider2 = /*#__PURE__*/styled_components__WEBPACK_IMPORTED_MODULE_1___default()((_mui_material_Slider__WEBPACK_IMPORTED_MODULE_7___default())).withConfig({
-  displayName: "ex2_2__PrettoSlider2",
-  componentId: "sc-195wyxu-1"
-})({
-  // color: "#52af77",
-  color: "#1160AA",
-  height: 6,
-  marginTop: 1,
-  marginBottom: 1,
-  "& .MuiSlider-track": {
-    border: "none"
-  },
-  "&.Mui-disabled": {
-    color: "#1160AA"
-  },
-  "& .MuiSlider-thumb": {
-    height: 18,
-    width: 18,
-    backgroundColor: "#fff",
-    border: "2px solid currentColor",
-    "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
-      boxShadow: "inherit"
-    },
-    "&:before": {
-      display: "none"
-    }
-  },
-  "& .MuiSlider-valueLabel": {
-    lineHeight: 1.2,
-    fontSize: 12,
-    background: "unset",
-    padding: 0,
-    width: 32,
-    height: 32,
-    borderRadius: "50% 50% 50% 0",
-    // backgroundColor: "#52af77",
-    backgroundColor: "#161D6E",
-    transformOrigin: "bottom left",
-    transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
-    "&:before": {
-      display: "none"
-    },
-    "&.MuiSlider-valueLabelOpen": {
-      transform: "translate(50%, -100%) rotate(-45deg) scale(1)"
-    },
-    "& > *": {
-      transform: "rotate(45deg)"
-    }
-  }
-});
-const green500 = "#00BFFF";
-const green900 = "#1E90FF";
-const CustomSlider = /*#__PURE__*/(/* unused pure expression or super */ null && (styled(Slider).withConfig({
-  displayName: "ex2_2__CustomSlider",
-  componentId: "sc-195wyxu-2"
-})(({
-  theme
-}) => ({
-  color: green500,
-  //color of the slider between thumbs
-  "& .MuiSlider-thumb": {
-    backgroundColor: green500 //color of thumbs
-
-  },
-  "& .MuiSlider-rail": {
-    color: green900 ////color of the slider outside  teh area between thumbs
-
-  }
-}))));
-const Info = /*#__PURE__*/styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({
-  displayName: "ex2_2__Info",
-  componentId: "sc-195wyxu-3"
-})(["height:100%;max-width:100%;margin:0 auto;.btnSave{margin-top:10px;}.Header{display:flex;align-items:center;justify-content:center;margin-top:10px;margin-bottom:30px;}.headerLabel{font-size:30px;font-weight:bold;color:black;}.info{margin-left:15px;margin-bottom:30px;}.infoDiv{display:flex;flex-direction:row;width:20px;}.infoInput{}.subjectLabel{display:flex;text-align:left;font-size:18px;font-weight:bold;color:black;text-decoration:underline;text-underline-position:under;margin-bottom:5px;}.subjectSlider{display:flex;text-align:left;font-size:13px;margin:0px;}.overallLabel{display:flex;font-size:18px;font-weight:bold;color:black;text-decoration:underline;text-underline-position:under;margin-bottom:0px;margin-top:10px;}.overallDiv{display:flex;align-items:flex-end;justify-content:flex-end;}.Result{margin-top:20px;}.resultLabel{display:flex;font-size:25px;font-weight:bold;color:black;margin-bottom:0px;margin-top:0px;justify-content:center;text-align:center;}.resultComment{display:flex;color:black;margin-bottom:0px;margin-top:0px;}"]);
-__webpack_async_result__();
-} catch(e) { __webpack_async_result__(e); } });
+eval("__webpack_require__.a(module, async (__webpack_handle_async_dependencies__, __webpack_async_result__) => { try {\n__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   \"getServerSideProps\": () => (/* binding */ getServerSideProps)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"styled-components\");\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _mui_material_Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @mui/material/Input */ \"@mui/material/Input\");\n/* harmony import */ var _mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Input__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @mui/material/Button */ \"@mui/material/Button\");\n/* harmony import */ var _mui_material_Button__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Button__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _mui_material_FormControl__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material/FormControl */ \"@mui/material/FormControl\");\n/* harmony import */ var _mui_material_FormControl__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_mui_material_FormControl__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material/InputLabel */ \"@mui/material/InputLabel\");\n/* harmony import */ var _mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _pages_ex_header__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../pages/ex_header */ \"./pages/ex_header.js\");\n/* harmony import */ var _mui_material_Slider__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material/Slider */ \"@mui/material/Slider\");\n/* harmony import */ var _mui_material_Slider__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Slider__WEBPACK_IMPORTED_MODULE_7__);\n/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material/Box */ \"@mui/material/Box\");\n/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Box__WEBPACK_IMPORTED_MODULE_8__);\n/* harmony import */ var _mui_material_Grid__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material/Grid */ \"@mui/material/Grid\");\n/* harmony import */ var _mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9__);\n/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/material/Typography */ \"@mui/material/Typography\");\n/* harmony import */ var _mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10__);\n/* harmony import */ var _mui_icons_material_VolumeUp__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/icons-material/VolumeUp */ \"@mui/icons-material/VolumeUp\");\n/* harmony import */ var _mui_icons_material_VolumeUp__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(_mui_icons_material_VolumeUp__WEBPACK_IMPORTED_MODULE_11__);\n/* harmony import */ var _mui_material_Tooltip__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material/Tooltip */ \"@mui/material/Tooltip\");\n/* harmony import */ var _mui_material_Tooltip__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Tooltip__WEBPACK_IMPORTED_MODULE_12__);\n/* harmony import */ var _mui_material_Table__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @mui/material/Table */ \"@mui/material/Table\");\n/* harmony import */ var _mui_material_Table__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Table__WEBPACK_IMPORTED_MODULE_13__);\n/* harmony import */ var _mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @mui/material/TableBody */ \"@mui/material/TableBody\");\n/* harmony import */ var _mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14__);\n/* harmony import */ var _mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @mui/material/TableCell */ \"@mui/material/TableCell\");\n/* harmony import */ var _mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15__);\n/* harmony import */ var _mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @mui/material/TableContainer */ \"@mui/material/TableContainer\");\n/* harmony import */ var _mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16__);\n/* harmony import */ var _mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @mui/material/TableHead */ \"@mui/material/TableHead\");\n/* harmony import */ var _mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17__);\n/* harmony import */ var _mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @mui/material/TableRow */ \"@mui/material/TableRow\");\n/* harmony import */ var _mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18__);\n/* harmony import */ var _mui_material_Paper__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @mui/material/Paper */ \"@mui/material/Paper\");\n/* harmony import */ var _mui_material_Paper__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Paper__WEBPACK_IMPORTED_MODULE_19__);\n/* harmony import */ var _mui_material_TextField__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @mui/material/TextField */ \"@mui/material/TextField\");\n/* harmony import */ var _mui_material_TextField__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_mui_material_TextField__WEBPACK_IMPORTED_MODULE_20__);\n/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! axios */ \"axios\");\n/* harmony import */ var _mui_material_Stack__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @mui/material/Stack */ \"@mui/material/Stack\");\n/* harmony import */ var _mui_material_Stack__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(_mui_material_Stack__WEBPACK_IMPORTED_MODULE_22__);\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! next/router */ \"next/router\");\n/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_23__);\n/* harmony import */ var _mui_x_data_grid__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @mui/x-data-grid */ \"@mui/x-data-grid\");\n/* harmony import */ var _mui_x_data_grid__WEBPACK_IMPORTED_MODULE_24___default = /*#__PURE__*/__webpack_require__.n(_mui_x_data_grid__WEBPACK_IMPORTED_MODULE_24__);\n/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @mui/material/styles */ \"@mui/material/styles\");\n/* harmony import */ var _mui_material_styles__WEBPACK_IMPORTED_MODULE_25___default = /*#__PURE__*/__webpack_require__.n(_mui_material_styles__WEBPACK_IMPORTED_MODULE_25__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__);\nvar __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([axios__WEBPACK_IMPORTED_MODULE_21__]);\naxios__WEBPACK_IMPORTED_MODULE_21__ = (__webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__)[0];\nvar _jsxFileName = \"D:\\\\test\\\\pages\\\\ex2_2.js\";\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nfunction ValueLabelComponent(props) {\n  const {\n    children,\n    value\n  } = props;\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Tooltip__WEBPACK_IMPORTED_MODULE_12___default()), {\n    enterTouchDelay: 0,\n    placement: \"top\",\n    title: value,\n    children: children\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 39,\n    columnNumber: 9\n  }, this);\n}\n\nfunction calculate(array) {\n  let len = 0; // console.log(array);\n\n  for (const num of array) {\n    if (num > 0) {\n      len += 1;\n    }\n  } // console.log(\"dddd\" + len);\n\n\n  if (len == 0) {\n    return 0;\n  } else {\n    return (array.reduce((a, b) => a + b) / len).toFixed();\n  }\n}\n\nfunction ex2(props) {\n  const router = (0,next_router__WEBPACK_IMPORTED_MODULE_23__.useRouter)();\n  const {\n    0: name,\n    1: setName\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(\"\");\n  const {\n    0: school,\n    1: setSchool\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(\"\");\n  const {\n    0: result_class,\n    1: setResultClass\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(\"\");\n  const {\n    0: result_comment,\n    1: setComment\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(\"\");\n  const {\n    0: sub1,\n    1: setSub1\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub2,\n    1: setSub2\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub3,\n    1: setSub3\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: overall1,\n    1: setOverall1\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub4,\n    1: setSub4\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub5,\n    1: setSub5\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: overall2,\n    1: setOverall2\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub6,\n    1: setSub6\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub7,\n    1: setSub7\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub8,\n    1: setSub8\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: overall3,\n    1: setOverall3\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub9,\n    1: setSub9\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub10,\n    1: setSub10\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub11,\n    1: setSub11\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub12,\n    1: setSub12\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub13,\n    1: setSub13\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: overall4,\n    1: setOverall4\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub14,\n    1: setSub14\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub15,\n    1: setSub15\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub16,\n    1: setSub16\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub17,\n    1: setSub17\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sub18,\n    1: setSub18\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: overall5,\n    1: setOverall5\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sum_overall1,\n    1: setSumOverall1\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sum_overall2,\n    1: setSumOverall2\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  const {\n    0: sum_overall3,\n    1: setSumOverall3\n  } = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(0);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    // console.log(props.data);\n    // console.log(props.data.NO);\n    setSub1(props.data.RESULT01);\n    setSub2(props.data.RESULT02);\n    setSub3(props.data.RESULT03);\n    setSub4(props.data.RESULT04);\n    setSub5(props.data.RESULT05);\n    setSub6(props.data.RESULT06);\n    setSub7(props.data.RESULT07);\n    setSub8(props.data.RESULT08);\n    setSub9(props.data.RESULT09);\n    setSub10(props.data.RESULT10);\n    setSub11(props.data.RESULT11);\n    setSub12(props.data.RESULT12);\n    setSub13(props.data.RESULT13);\n    setSub14(props.data.RESULT14);\n    setSub15(props.data.RESULT15);\n    setSub16(props.data.RESULT16);\n    setSub17(props.data.RESULT17);\n    setSub18(props.data.RESULT18);\n    setResultClass(props.data.CLASS);\n    setComment(props.data.COMMENT);\n    setName(props.data.NAME);\n    setSchool(props.data.SCHOOL);\n  }, []);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([sub1, sub2, sub3]); // console.log(sum);\n\n    setOverall1(sum);\n  }, [sub1, sub2, sub3]);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([sub4, sub5]); // console.log(sum);\n\n    setOverall2(sum);\n  }, [sub4, sub5]);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([sub6, sub7, sub8]); // console.log(sum);\n\n    setOverall3(sum);\n  }, [sub6, sub7, sub8]);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([sub9, sub10, sub11, sub12, sub13]); // console.log(sum);\n\n    setOverall4(sum);\n  }, [sub9, sub10, sub11, sub12, sub13]);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([sub14, sub15, sub16, sub17, sub18]); // console.log(sum);\n\n    setOverall5(sum);\n  }, [sub14, sub15, sub16, sub17, sub18]);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([overall1 * 1, overall2 * 1, overall3 * 1]); // console.log(sum);\n\n    setSumOverall1(sum);\n  }, [overall1, overall2, overall3]);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([overall4 * 1, overall5 * 1]); // console.log(sum);\n\n    setSumOverall2(sum);\n  }, [overall4, overall5]);\n  (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {\n    let sum = calculate([sum_overall1 * 1, sum_overall2 * 1]); // console.log(sum);\n\n    setSumOverall3(sum);\n  }, [sum_overall1, sum_overall2]);\n\n  const onChange = e => {\n    switch (e.target.name) {\n      case \"name\":\n        setName(e.target.value);\n        break;\n\n      case \"result_class\":\n        setResultClass(e.target.value); // console.log(e.target.value);\n\n        break;\n\n      case \"result_comment\":\n        setComment(e.target.value);\n        break;\n\n      default:\n        break;\n    } // console.log(name);\n\n  };\n\n  const onChange2 = e => {\n    setSchool(e.target.value); // console.log(name);\n  };\n\n  const handleSliderChange = (event, newValue) => {\n    switch (event.target.name) {\n      case \"sub1\":\n        setSub1(newValue);\n        break;\n\n      case \"sub2\":\n        setSub2(newValue);\n        break;\n\n      case \"sub3\":\n        setSub3(newValue);\n        break;\n\n      case \"sub4\":\n        setSub4(newValue);\n        break;\n\n      case \"sub5\":\n        setSub5(newValue);\n        break;\n\n      case \"sub6\":\n        setSub6(newValue);\n        break;\n\n      case \"sub7\":\n        setSub7(newValue);\n        break;\n\n      case \"sub8\":\n        setSub8(newValue);\n        break;\n\n      case \"sub9\":\n        setSub9(newValue);\n        break;\n\n      case \"sub10\":\n        setSub10(newValue);\n        break;\n\n      case \"sub11\":\n        setSub11(newValue);\n        break;\n\n      case \"sub12\":\n        setSub12(newValue);\n        break;\n\n      case \"sub13\":\n        setSub13(newValue);\n        break;\n\n      case \"sub14\":\n        setSub14(newValue);\n        break;\n\n      case \"sub15\":\n        setSub15(newValue);\n        break;\n\n      case \"sub16\":\n        setSub16(newValue);\n        break;\n\n      case \"sub17\":\n        setSub17(newValue);\n        break;\n\n      case \"sub18\":\n        setSub18(newValue);\n        break;\n\n      default:\n        break;\n    } // console.log(event.target);\n\n  };\n\n  const handleInputChange = event => {\n    switch (event.target.name) {\n      case \"sub1\":\n        setSub1(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub2\":\n        setSub2(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub3\":\n        setSub3(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub4\":\n        setSub4(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub5\":\n        setSub5(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub6\":\n        setSub6(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub7\":\n        setSub7(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub8\":\n        setSub8(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub9\":\n        setSub9(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub10\":\n        sub10(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub11\":\n        setSub11(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub12\":\n        setSub12(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub13\":\n        setSub13(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub14\":\n        setSub14(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub15\":\n        setSub15(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub16\":\n        setSub16(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub17\":\n        setSub17(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      case \"sub18\":\n        setSub18(event.target.value === \"\" ? \"\" : Number(event.target.value));\n        break;\n\n      default:\n        break;\n    }\n  };\n\n  const handleBlur = () => {\n    if (sub1 < 0) {\n      setSub1(0);\n      console.log(\"blurSub1=0\");\n    } else if (sub1 > 100) {\n      setSub1(100);\n      console.log(\"blurSub1=100\");\n    } else if (sub2 < 0) {\n      setSub2(0);\n      console.log(\"blurSub2=0\");\n    } else if (sub2 > 100) {\n      setSub2(100);\n      console.log(\"blurSub2=100\");\n    }\n  };\n\n  function Save() {\n    fetch(\"api/save_ex2\", {\n      method: \"POST\",\n      headers: {\n        \"Content-Type\": \"application/json\"\n      },\n      body: JSON.stringify({\n        name: name,\n        school: school,\n        result01: sub1,\n        result02: sub2,\n        result03: sub3,\n        result04: sub4,\n        result05: sub5,\n        result06: sub6,\n        result07: sub7,\n        result08: sub8,\n        result09: sub9,\n        result10: sub10,\n        result11: sub11,\n        result12: sub12,\n        result13: sub13,\n        result14: sub14,\n        result15: sub15,\n        result16: sub16,\n        result17: sub17,\n        result18: sub18,\n        result_class: result_class,\n        comment: result_comment\n      })\n    }).then(res => callBack(res)) // .then((data) => {\n    .then(data => {// console.log(data);\n    });\n  }\n\n  function callBack(res) {\n    // alert(\"Complete  Save!\");\n    if (res.status == 200) {\n      alert(\"Complete  Save!\");\n      window.location.href = \"/\";\n    } else {\n      alert(res.message);\n    }\n  }\n\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(Info, {\n    children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n      className: \"Header\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n        className: \"headerLabel\",\n        children: \"RITE DIAGNOSTIC TEST (EX2)\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 426,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 425,\n      columnNumber: 13\n    }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n      className: \"info\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Stack__WEBPACK_IMPORTED_MODULE_22___default()), {\n        sx: {\n          pt: 3\n        },\n        direction: \"row\",\n        spacing: 1,\n        justifyContent: \"center\" // alignItems=\"center\"\n        ,\n        alignContent: \"center\",\n        children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n          className: \"infoLabel\",\n          htmlFor: \"component-simple\",\n          children: \"Name\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 441,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n          className: \"infoInput\",\n          name: \"name\",\n          id: \"name\",\n          onChange: onChange,\n          value: name // placeholder=\"Enter Name.\"\n          ,\n          inputProps: {\n            style: {\n              fontSize: 15,\n              width: 150,\n              textAlign: \"center\"\n            }\n          }\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 447,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n          className: \"infoLabel\",\n          htmlFor: \"component-simple\",\n          children: \"School/Grade\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 462,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n          className: \"infoInput\",\n          id: \"school\",\n          onChange: onChange2,\n          value: school // placeholder=\"Enter School/Grade.\"\n          ,\n          inputProps: {\n            style: {\n              fontSize: 15,\n              width: 150,\n              textAlign: \"center\"\n            }\n          }\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 468,\n          columnNumber: 21\n        }, this)]\n      }, void 0, true, {\n        fileName: _jsxFileName,\n        lineNumber: 433,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 432,\n      columnNumber: 13\n    }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n      className: \"Subject\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Box__WEBPACK_IMPORTED_MODULE_8___default()), {\n        margin: 4,\n        children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n          className: \"subjectLabel\",\n          htmlFor: \"component-simple\",\n          children: \"Vocabulary\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 494,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"1) Spelling\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 501,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 509,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub1 == \"number\" ? sub1 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              color: \"primary\",\n              id: \"sub1\",\n              name: \"sub1\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 511,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 510,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub1\",\n              value: sub1,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 523,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 522,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 508,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"2) Meaning\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 541,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 549,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub2 == \"number\" ? sub2 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub2\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 551,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 550,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub2\",\n              value: sub2,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 561,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 560,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 548,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"3) Vsage\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 579,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 587,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub3 == \"number\" ? sub3 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub3\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 589,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 588,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub3\",\n              value: sub3,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 599,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 598,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 586,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n          className: \"overallDiv\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            children: \"Overall\\xA0:\\xA0\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 618,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            name: \"overall1\",\n            children: overall1\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 624,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 617,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n          className: \"subjectLabel\",\n          htmlFor: \"component-simple\",\n          children: \"Reading Comprehension\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 633,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"1) Main idea\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 640,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 648,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub4 == \"number\" ? sub4 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub4\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 650,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 649,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub4\",\n              value: sub4,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 660,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 659,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 647,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"2) Key details\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 678,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 686,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub5 == \"number\" ? sub5 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub5\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 688,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 687,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub5\",\n              value: sub5,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 698,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 697,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 685,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n          className: \"overallDiv\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            children: \"Overall\\xA0:\\xA0\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 717,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            name: \"overall2\",\n            children: overall2\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 723,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 716,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n          className: \"subjectLabel\",\n          htmlFor: \"component-simple\",\n          children: \"Grammar\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 732,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"1) Basic\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 739,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 747,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub6 == \"number\" ? sub6 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub6\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 749,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 748,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub6\",\n              value: sub6,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 759,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 758,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 746,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"2) Intermediate\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 777,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 785,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub7 == \"number\" ? sub7 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub7\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 787,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 786,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub7\",\n              value: sub7,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 797,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 796,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 784,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"3) Advance\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 814,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 822,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub8 == \"number\" ? sub8 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub8\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 824,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 823,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub8\",\n              value: sub8,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 834,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 833,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 821,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n          className: \"overallDiv\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            children: \"Overall\\xA0:\\xA0\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 853,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            name: \"overall3\",\n            children: overall3\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 859,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 852,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"br\", {}, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 867,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"br\", {}, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 868,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"br\", {}, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 869,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n          className: \"subjectLabel\",\n          htmlFor: \"component-simple\",\n          children: \"Oral\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 870,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"1) Listening Comprehension\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 877,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 885,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub9 == \"number\" ? sub9 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              color: \"primary\",\n              id: \"sub9\",\n              name: \"sub9\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 887,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 886,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub9\",\n              value: sub9,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 899,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 898,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 884,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"2) Vocabulary\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 917,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 925,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub10 == \"number\" ? sub10 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub10\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 927,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 926,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub10\",\n              value: sub10,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 937,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 936,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 924,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"3) Structure\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 955,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 963,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub11 == \"number\" ? sub11 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub11\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 965,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 964,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub11\",\n              value: sub11,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 975,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 974,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 962,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"4) Fluency\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 992,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1000,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub12 == \"number\" ? sub12 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub12\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1002,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1001,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub12\",\n              value: sub12,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1012,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1011,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 999,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"5) Communication\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 1030,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1038,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub13 == \"number\" ? sub13 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub13\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1040,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1039,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub13\",\n              value: sub13,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1050,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1049,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1037,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n          className: \"overallDiv\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            children: \"Overall\\xA0:\\xA0\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1069,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            name: \"overall4\",\n            children: overall4\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1075,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1068,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n          className: \"subjectLabel\",\n          htmlFor: \"component-simple\",\n          children: \"Writing\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 1084,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"1) Grammar\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 1091,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1099,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub14 == \"number\" ? sub14 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              color: \"primary\",\n              id: \"sub14\",\n              name: \"sub14\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1101,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1100,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub14\",\n              value: sub14,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1113,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1112,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1098,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"2) Vocabulary\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 1131,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1139,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub15 == \"number\" ? sub15 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub15\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1141,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1140,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub15\",\n              value: sub15,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1151,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1150,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1138,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"3) Convention\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 1169,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1177,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub16 == \"number\" ? sub16 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub16\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1179,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1178,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub16\",\n              value: sub16,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1189,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1188,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1176,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"4) Structure\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 1206,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1214,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub17 == \"number\" ? sub17 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub17\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1216,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1215,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub17\",\n              value: sub17,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1226,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1225,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1213,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Typography__WEBPACK_IMPORTED_MODULE_10___default()), {\n          id: \"input-slider\",\n          className: \"subjectSlider\",\n          gutterBottom: true,\n          children: \"5) Content\"\n        }, void 0, false, {\n          fileName: _jsxFileName,\n          lineNumber: 1244,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n          container: true,\n          spacing: 2,\n          alignItems: \"center\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1252,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            xs: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(PrettoSlider2, {\n              disabled: true,\n              valueLabelDisplay: \"auto\",\n              value: typeof sub18 == \"number\" ? sub18 : 0,\n              onChange: handleSliderChange,\n              \"aria-labelledby\": \"input-slider\",\n              name: \"sub18\"\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1254,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1253,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Grid__WEBPACK_IMPORTED_MODULE_9___default()), {\n            item: true,\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n              name: \"sub18\",\n              value: sub18,\n              size: \"small\",\n              onChange: handleInputChange,\n              onBlur: handleBlur,\n              inputProps: {\n                step: 1,\n                min: 0,\n                max: 100,\n                type: \"number\",\n                \"aria-labelledby\": \"input-slider\",\n                readOnly: true\n              }\n            }, void 0, false, {\n              fileName: _jsxFileName,\n              lineNumber: 1264,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1263,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1251,\n          columnNumber: 21\n        }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n          className: \"overallDiv\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            children: \"Overall\\xA0:\\xA0\"\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1283,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n            className: \"overallLabel\",\n            htmlFor: \"component-simple\",\n            name: \"overall5\",\n            children: overall5\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1289,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1282,\n          columnNumber: 21\n        }, this)]\n      }, void 0, true, {\n        fileName: _jsxFileName,\n        lineNumber: 493,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 492,\n      columnNumber: 13\n    }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)(\"div\", {\n      className: \"Result\",\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableContainer__WEBPACK_IMPORTED_MODULE_16___default()), {\n        component: (_mui_material_Paper__WEBPACK_IMPORTED_MODULE_19___default()),\n        children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Table__WEBPACK_IMPORTED_MODULE_13___default()), {\n          sx: {\n            minWidth: \"100%\"\n          },\n          \"aria-label\": \"simple table\",\n          children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableHead__WEBPACK_IMPORTED_MODULE_17___default()), {\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18___default()), {\n              sx: {\n                \"& th\": {\n                  padding: \"5px 5px\",\n                  fontSize: \"1.1rem\",\n                  //Result Table Header font size\n                  fontWeight: \"bold\"\n                }\n              },\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                width: \"15%\",\n                children: \"Voca / R/C / Gr\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1312,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                width: \"15%\",\n                children: \"Oral / Writing\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1315,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                width: \"15%\",\n                children: \"Overall\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1318,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                width: \"15%\",\n                children: \"Class\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1321,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                width: \"40%\",\n                children: \"Comment\"\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1324,\n                columnNumber: 33\n              }, this)]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 1303,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1302,\n            columnNumber: 25\n          }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableBody__WEBPACK_IMPORTED_MODULE_14___default()), {\n            children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableRow__WEBPACK_IMPORTED_MODULE_18___default()), {\n              sx: {\n                \"&:last-child td, &:last-child th\": {\n                  border: 0\n                }\n              },\n              children: [/*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                sx: {\n                  padding: \"4px 4px\",\n                  borderRight: \"2px solid black\",\n                  fontSize: \"10rem\"\n                },\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n                  className: \"resultLabel\",\n                  name: \"result_phonnics\",\n                  children: sum_overall1\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 1345,\n                  columnNumber: 37\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1337,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                sx: {\n                  padding: \"4px 4px\",\n                  borderRight: \"2px solid black\",\n                  fontSize: \"10rem\"\n                },\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n                  name: \"result_language\",\n                  className: \"resultLabel\",\n                  children: sum_overall2\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 1360,\n                  columnNumber: 37\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1352,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                sx: {\n                  padding: \"4px 4px\",\n                  borderRight: \"2px solid black\",\n                  fontSize: \"10rem\"\n                },\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_InputLabel__WEBPACK_IMPORTED_MODULE_5___default()), {\n                  name: \"result_overall\",\n                  className: \"resultLabel\",\n                  children: sum_overall3\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 1375,\n                  columnNumber: 37\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1367,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                sx: {\n                  padding: \"4px 4px\",\n                  borderRight: \"2px solid black\",\n                  fontSize: \"10rem\"\n                },\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_Input__WEBPACK_IMPORTED_MODULE_2___default()), {\n                  name: \"result_class\",\n                  className: \"resultLabel\",\n                  inputProps: {\n                    style: {\n                      textAlign: \"center\"\n                    },\n                    readOnly: true\n                  },\n                  onChange: onChange,\n                  value: result_class\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 1390,\n                  columnNumber: 37\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1382,\n                columnNumber: 33\n              }, this), /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TableCell__WEBPACK_IMPORTED_MODULE_15___default()), {\n                align: \"center\",\n                sx: {\n                  padding: \"4px 4px\",\n                  borderRight: \"2px solid black\",\n                  fontSize: \"10rem\"\n                },\n                children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_26__.jsxDEV)((_mui_material_TextField__WEBPACK_IMPORTED_MODULE_20___default()), {\n                  className: \"resultComment\",\n                  name: \"result_comment\",\n                  fullWidth: true,\n                  id: \"outlined-multiline-static\",\n                  multiline: true,\n                  rows: 4,\n                  onChange: onChange,\n                  value: result_comment,\n                  InputProps: {\n                    style: {\n                      fontSize: 13,\n                      padding: 3\n                    },\n                    readOnly: true\n                  }\n                }, void 0, false, {\n                  fileName: _jsxFileName,\n                  lineNumber: 1409,\n                  columnNumber: 37\n                }, this)\n              }, void 0, false, {\n                fileName: _jsxFileName,\n                lineNumber: 1401,\n                columnNumber: 33\n              }, this)]\n            }, void 0, true, {\n              fileName: _jsxFileName,\n              lineNumber: 1330,\n              columnNumber: 29\n            }, this)\n          }, void 0, false, {\n            fileName: _jsxFileName,\n            lineNumber: 1329,\n            columnNumber: 25\n          }, this)]\n        }, void 0, true, {\n          fileName: _jsxFileName,\n          lineNumber: 1301,\n          columnNumber: 21\n        }, this)\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 1300,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 1299,\n      columnNumber: 13\n    }, this)]\n  }, void 0, true, {\n    fileName: _jsxFileName,\n    lineNumber: 424,\n    columnNumber: 9\n  }, this);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ex2);\nasync function getServerSideProps(context) {\n  // api 이용해서 데이터 불러오기 (async, await으로 기다려주기)\n  const id = context.query.id; // const res = await fetch(\"https://example_site.com/user_data\");\n  // fetch(\"http://localhost:3000/api/list2\")\n  // const res = fetch(\"http://localhost:3000/api/list2\", {\n  //     method: \"GET\",\n  //     headers: {\n  //         \"Content-Type\": \"application/json\",\n  //     },\n  //     body: JSON.stringify({\n  //         no: id,\n  //     }),\n  // });\n  // const res = fetch(`http://localhost:3000/api/list2/${id}`, {\n  //     headers: {\n  //         Accept: \"application/json\",\n  //     },\n  // })\n  //     .then((data) => data.json())\n  //     .then((data) => console.log(data));\n\n  const res = await axios__WEBPACK_IMPORTED_MODULE_21__[\"default\"].get(`/api/list2`, {\n    params: {\n      id: id\n    },\n    headers: {\n      \"Content-Type\": \"application/json\"\n    }\n  }).then(function (res) {\n    // console.log(res.data[0]);\n    return res.data[0];\n  }); // page에 props로 전달하기위해, json 형식으로 변경해주기\n  // 페이지 props로 전달하기 (json 형식만 가능)\n\n  return {\n    props: {\n      data: res\n    }\n  };\n} // const PrettoSlider = styled(Slider)({\n//     // color: \"#52af77\",\n//     color: \"#97DECE\",\n//     height: 6,\n//     marginTop: 1,\n//     marginBottom: 1,\n//     \"& .MuiSlider-track\": {\n//         border: \"none\",\n//     },\n//     \"&.Mui-disabled\": {\n//         color: \"#97DECE\",\n//     },\n//     \"& .MuiSlider-thumb\": {\n//         height: 18,\n//         width: 18,\n//         backgroundColor: \"#fff\",\n//         border: \"2px solid currentColor\",\n//         \"&:focus, &:hover, &.Mui-active, &.Mui-focusVisible\": {\n//             boxShadow: \"inherit\",\n//         },\n//         \"&:before\": {\n//             display: \"none\",\n//         },\n//     },\n//     \"& .MuiSlider-valueLabel\": {\n//         lineHeight: 1.2,\n//         fontSize: 12,\n//         background: \"unset\",\n//         padding: 0,\n//         width: 32,\n//         height: 32,\n//         borderRadius: \"50% 50% 50% 0\",\n//         // backgroundColor: \"#52af77\",\n//         backgroundColor: \"#62B6B7\",\n//         transformOrigin: \"bottom left\",\n//         transform: \"translate(50%, -100%) rotate(-45deg) scale(0)\",\n//         \"&:before\": { display: \"none\" },\n//         \"&.MuiSlider-valueLabelOpen\": {\n//             transform: \"translate(50%, -100%) rotate(-45deg) scale(1)\",\n//         },\n//         \"& > *\": {\n//             transform: \"rotate(45deg)\",\n//         },\n//     },\n// });\n// const PrettoSlider2 = styled(Slider)({\n//     // color: \"#52af77\",\n//     color: \"#1160AA\",\n//     height: 6,\n//     marginTop: 1,\n//     marginBottom: 1,\n//     \"& .MuiSlider-track\": {\n//         border: \"none\",\n//     },\n//     \"&.Mui-disabled\": {\n//         color: \"#1160AA\",\n//     },\n//     \"& .MuiSlider-thumb\": {\n//         height: 18,\n//         width: 18,\n//         backgroundColor: \"#fff\",\n//         border: \"2px solid currentColor\",\n//         \"&:focus, &:hover, &.Mui-active, &.Mui-focusVisible\": {\n//             boxShadow: \"inherit\",\n//         },\n//         \"&:before\": {\n//             display: \"none\",\n//         },\n//     },\n//     \"& .MuiSlider-valueLabel\": {\n//         lineHeight: 1.2,\n//         fontSize: 12,\n//         background: \"unset\",\n//         padding: 0,\n//         width: 32,\n//         height: 32,\n//         borderRadius: \"50% 50% 50% 0\",\n//         // backgroundColor: \"#52af77\",\n//         backgroundColor: \"#161D6E\",\n//         transformOrigin: \"bottom left\",\n//         transform: \"translate(50%, -100%) rotate(-45deg) scale(0)\",\n//         \"&:before\": { display: \"none\" },\n//         \"&.MuiSlider-valueLabelOpen\": {\n//             transform: \"translate(50%, -100%) rotate(-45deg) scale(1)\",\n//         },\n//         \"& > *\": {\n//             transform: \"rotate(45deg)\",\n//         },\n//     },\n// });\n\nconst PrettoSlider = /*#__PURE__*/styled_components__WEBPACK_IMPORTED_MODULE_1___default()((_mui_material_Slider__WEBPACK_IMPORTED_MODULE_7___default())).withConfig({\n  displayName: \"ex2_2__PrettoSlider\",\n  componentId: \"sc-195wyxu-0\"\n})({\n  // color: \"#52af77\",\n  // color: \"#97DECE\",\n  // height: 8,\n  \"& .MuiSlider-rail\": {\n    // opacity: 5,\n    height: 8,\n    backgroundColor: \"#52af77\"\n  },\n  \"& .MuiSlider-track\": {\n    border: \"none\",\n    backgroundColor: \"#52af77\"\n  },\n  \"& .MuiSlider-thumb\": {\n    height: 24,\n    width: 24,\n    backgroundColor: \"#fff\",\n    color: \"#97DECE\",\n    border: \"2px solid currentColor\",\n    \"&:focus, &:hover, &.Mui-active, &.Mui-focusVisible\": {\n      boxShadow: \"inherit\"\n    },\n    \"&:before\": {\n      display: \"none\"\n    }\n  },\n  \"& .MuiSlider-valueLabel\": {\n    lineHeight: 1.2,\n    fontSize: 12,\n    background: \"unset\",\n    padding: 0,\n    width: 32,\n    height: 32,\n    borderRadius: \"50% 50% 50% 0\",\n    // backgroundColor: \"#52af77\",\n    backgroundColor: \"#62B6B7\",\n    transformOrigin: \"bottom left\",\n    transform: \"translate(50%, -100%) rotate(-45deg) scale(0)\",\n    \"&:before\": {\n      display: \"none\"\n    },\n    \"&.MuiSlider-valueLabelOpen\": {\n      transform: \"translate(50%, -100%) rotate(-45deg) scale(1)\"\n    },\n    \"& > *\": {\n      transform: \"rotate(45deg)\"\n    }\n  }\n});\nconst green500 = \"#00BFFF\";\nconst green900 = \"#1E90FF\";\nconst CustomSlider = /*#__PURE__*/styled_components__WEBPACK_IMPORTED_MODULE_1___default()((_mui_material_Slider__WEBPACK_IMPORTED_MODULE_7___default())).withConfig({\n  displayName: \"ex2_2__CustomSlider\",\n  componentId: \"sc-195wyxu-1\"\n})(({\n  theme\n}) => ({\n  color: green500,\n  //color of the slider between thumbs\n  \"& .MuiSlider-thumb\": {\n    backgroundColor: green500 //color of thumbs\n\n  },\n  \"& .MuiSlider-rail\": {\n    color: green900 ////color of the slider outside  teh area between thumbs\n\n  }\n}));\nconst Info = /*#__PURE__*/styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n  displayName: \"ex2_2__Info\",\n  componentId: \"sc-195wyxu-2\"\n})([\"height:100%;max-width:100%;margin:0 auto;.btnSave{margin-top:10px;}.Header{display:flex;align-items:center;justify-content:center;margin-top:10px;margin-bottom:30px;}.headerLabel{font-size:30px;font-weight:bold;color:black;}.info{margin-left:15px;margin-bottom:30px;}.infoDiv{display:flex;flex-direction:row;width:20px;}.infoInput{}.subjectLabel{display:flex;text-align:left;font-size:18px;font-weight:bold;color:black;text-decoration:underline;text-underline-position:under;margin-bottom:5px;}.subjectSlider{display:flex;text-align:left;font-size:13px;margin:0px;}.overallLabel{display:flex;font-size:18px;font-weight:bold;color:black;text-decoration:underline;text-underline-position:under;margin-bottom:0px;margin-top:10px;}.overallDiv{display:flex;align-items:flex-end;justify-content:flex-end;}.Result{margin-top:20px;}.resultLabel{display:flex;font-size:25px;font-weight:bold;color:black;margin-bottom:0px;margin-top:0px;justify-content:center;text-align:center;}.resultComment{display:flex;color:black;margin-bottom:0px;margin-top:0px;}\"]);\n__webpack_async_result__();\n} catch(e) { __webpack_async_result__(e); } });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,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QUFDL0I7QUFDakIsd0JBQXNCO0FBQ2xCVCxJQUFBQSxlQUFlLEVBQUVTLFFBREMsQ0FDUzs7QUFEVCxHQUYwQjtBQUtoRCx1QkFBcUI7QUFDakJSLElBQUFBLEtBQUssRUFBRVMsUUFEVSxDQUNBOztBQURBO0FBTDJCLENBQWhCLENBQWxCLENBQWxCO0FBVUEsTUFBTUcsSUFBSSxnQkFBR3BOLHVFQUFIO0FBQUE7QUFBQTtBQUFBLDJoQ0FBVixDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGVzdC8uL3BhZ2VzL2V4Ml8yLmpzP2IyZjIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0LCB7IHVzZUNhbGxiYWNrLCB1c2VTdGF0ZSwgdXNlRWZmZWN0IH0gZnJvbSBcInJlYWN0XCI7XHJcbmltcG9ydCBzdHlsZWQgZnJvbSBcInN0eWxlZC1jb21wb25lbnRzXCI7XHJcbmltcG9ydCBJbnB1dCBmcm9tIFwiQG11aS9tYXRlcmlhbC9JbnB1dFwiO1xyXG5pbXBvcnQgQnV0dG9uIGZyb20gXCJAbXVpL21hdGVyaWFsL0J1dHRvblwiO1xyXG5pbXBvcnQgRm9ybUNvbnRyb2wgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvRm9ybUNvbnRyb2xcIjtcclxuaW1wb3J0IElucHV0TGFiZWwgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvSW5wdXRMYWJlbFwiO1xyXG5pbXBvcnQgSGVhZGVyIGZyb20gXCIuLi9wYWdlcy9leF9oZWFkZXJcIjtcclxuaW1wb3J0IFNsaWRlciwge1xyXG4gICAgU2xpZGVyVGh1bWIsXHJcbiAgICBTbGlkZXJWYWx1ZUxhYmVsUHJvcHMsXHJcbn0gZnJvbSBcIkBtdWkvbWF0ZXJpYWwvU2xpZGVyXCI7XHJcbmltcG9ydCBCb3ggZnJvbSBcIkBtdWkvbWF0ZXJpYWwvQm94XCI7XHJcbmltcG9ydCBHcmlkIGZyb20gXCJAbXVpL21hdGVyaWFsL0dyaWRcIjtcclxuaW1wb3J0IFR5cG9ncmFwaHkgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvVHlwb2dyYXBoeVwiO1xyXG5pbXBvcnQgTXVpSW5wdXQgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvSW5wdXRcIjtcclxuaW1wb3J0IFZvbHVtZVVwIGZyb20gXCJAbXVpL2ljb25zLW1hdGVyaWFsL1ZvbHVtZVVwXCI7XHJcbmltcG9ydCBUb29sdGlwIGZyb20gXCJAbXVpL21hdGVyaWFsL1Rvb2x0aXBcIjtcclxuaW1wb3J0IFRhYmxlIGZyb20gXCJAbXVpL21hdGVyaWFsL1RhYmxlXCI7XHJcbmltcG9ydCBUYWJsZUJvZHkgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvVGFibGVCb2R5XCI7XHJcbmltcG9ydCBUYWJsZUNlbGwgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvVGFibGVDZWxsXCI7XHJcbmltcG9ydCBUYWJsZUNvbnRhaW5lciBmcm9tIFwiQG11aS9tYXRlcmlhbC9UYWJsZUNvbnRhaW5lclwiO1xyXG5pbXBvcnQgVGFibGVIZWFkIGZyb20gXCJAbXVpL21hdGVyaWFsL1RhYmxlSGVhZFwiO1xyXG5pbXBvcnQgVGFibGVSb3cgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvVGFibGVSb3dcIjtcclxuaW1wb3J0IFBhcGVyIGZyb20gXCJAbXVpL21hdGVyaWFsL1BhcGVyXCI7XHJcbmltcG9ydCBUZXh0RmllbGQgZnJvbSBcIkBtdWkvbWF0ZXJpYWwvVGV4dEZpZWxkXCI7XHJcbmltcG9ydCBheGlvcyBmcm9tIFwiYXhpb3NcIjtcclxuXHJcbmltcG9ydCBTdGFjayBmcm9tIFwiQG11aS9tYXRlcmlhbC9TdGFja1wiO1xyXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9yb3V0ZXJcIjtcclxuXHJcbmltcG9ydCB7IERhdGFHcmlkLCBHcmlkQ29sRGVmLCBHcmlkVmFsdWVHZXR0ZXJQYXJhbXMgfSBmcm9tIFwiQG11aS94LWRhdGEtZ3JpZFwiO1xyXG5cclxuaW1wb3J0IHsgY3JlYXRlVGhlbWUsIFRoZW1lUHJvdmlkZXIgfSBmcm9tIFwiQG11aS9tYXRlcmlhbC9zdHlsZXNcIjtcclxuXHJcbmZ1bmN0aW9uIFZhbHVlTGFiZWxDb21wb25lbnQocHJvcHMpIHtcclxuICAgIGNvbnN0IHsgY2hpbGRyZW4sIHZhbHVlIH0gPSBwcm9wcztcclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxUb29sdGlwIGVudGVyVG91Y2hEZWxheT17MH0gcGxhY2VtZW50PVwidG9wXCIgdGl0bGU9e3ZhbHVlfT5cclxuICAgICAgICAgICAge2NoaWxkcmVufVxyXG4gICAgICAgIDwvVG9vbHRpcD5cclxuICAgICk7XHJcbn1cclxuXHJcbmZ1bmN0aW9uIGNhbGN1bGF0ZShhcnJheSkge1xyXG4gICAgbGV0IGxlbiA9IDA7XHJcbiAgICAvLyBjb25zb2xlLmxvZyhhcnJheSk7XHJcbiAgICBmb3IgKGNvbnN0IG51bSBvZiBhcnJheSkge1xyXG4gICAgICAgIGlmIChudW0gPiAwKSB7XHJcbiAgICAgICAgICAgIGxlbiArPSAxO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxuICAgIC8vIGNvbnNvbGUubG9nKFwiZGRkZFwiICsgbGVuKTtcclxuICAgIGlmIChsZW4gPT0gMCkge1xyXG4gICAgICAgIHJldHVybiAwO1xyXG4gICAgfSBlbHNlIHtcclxuICAgICAgICByZXR1cm4gKGFycmF5LnJlZHVjZSgoYSwgYikgPT4gYSArIGIpIC8gbGVuKS50b0ZpeGVkKCk7XHJcbiAgICB9XHJcbn1cclxuXHJcbmZ1bmN0aW9uIGV4Mihwcm9wcykge1xyXG4gICAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XHJcbiAgICBjb25zdCBbbmFtZSwgc2V0TmFtZV0gPSB1c2VTdGF0ZShcIlwiKTtcclxuICAgIGNvbnN0IFtzY2hvb2wsIHNldFNjaG9vbF0gPSB1c2VTdGF0ZShcIlwiKTtcclxuICAgIGNvbnN0IFtyZXN1bHRfY2xhc3MsIHNldFJlc3VsdENsYXNzXSA9IHVzZVN0YXRlKFwiXCIpO1xyXG4gICAgY29uc3QgW3Jlc3VsdF9jb21tZW50LCBzZXRDb21tZW50XSA9IHVzZVN0YXRlKFwiXCIpO1xyXG5cclxuICAgIGNvbnN0IFtzdWIxLCBzZXRTdWIxXSA9IHVzZVN0YXRlKDApO1xyXG4gICAgY29uc3QgW3N1YjIsIHNldFN1YjJdID0gdXNlU3RhdGUoMCk7XHJcbiAgICBjb25zdCBbc3ViMywgc2V0U3ViM10gPSB1c2VTdGF0ZSgwKTtcclxuICAgIGNvbnN0IFtvdmVyYWxsMSwgc2V0T3ZlcmFsbDFdID0gdXNlU3RhdGUoMCk7XHJcblxyXG4gICAgY29uc3QgW3N1YjQsIHNldFN1YjRdID0gdXNlU3RhdGUoMCk7XHJcbiAgICBjb25zdCBbc3ViNSwgc2V0U3ViNV0gPSB1c2VTdGF0ZSgwKTtcclxuICAgIGNvbnN0IFtvdmVyYWxsMiwgc2V0T3ZlcmFsbDJdID0gdXNlU3RhdGUoMCk7XHJcblxyXG4gICAgY29uc3QgW3N1YjYsIHNldFN1YjZdID0gdXNlU3RhdGUoMCk7XHJcbiAgICBjb25zdCBbc3ViNywgc2V0U3ViN10gPSB1c2VTdGF0ZSgwKTtcclxuICAgIGNvbnN0IFtzdWI4LCBzZXRTdWI4XSA9IHVzZVN0YXRlKDApO1xyXG4gICAgY29uc3QgW292ZXJhbGwzLCBzZXRPdmVyYWxsM10gPSB1c2VTdGF0ZSgwKTtcclxuXHJcbiAgICBjb25zdCBbc3ViOSwgc2V0U3ViOV0gPSB1c2VTdGF0ZSgwKTtcclxuICAgIGNvbnN0IFtzdWIxMCwgc2V0U3ViMTBdID0gdXNlU3RhdGUoMCk7XHJcbiAgICBjb25zdCBbc3ViMTEsIHNldFN1YjExXSA9IHVzZVN0YXRlKDApO1xyXG4gICAgY29uc3QgW3N1YjEyLCBzZXRTdWIxMl0gPSB1c2VTdGF0ZSgwKTtcclxuICAgIGNvbnN0IFtzdWIxMywgc2V0U3ViMTNdID0gdXNlU3RhdGUoMCk7XHJcbiAgICBjb25zdCBbb3ZlcmFsbDQsIHNldE92ZXJhbGw0XSA9IHVzZVN0YXRlKDApO1xyXG5cclxuICAgIGNvbnN0IFtzdWIxNCwgc2V0U3ViMTRdID0gdXNlU3RhdGUoMCk7XHJcbiAgICBjb25zdCBbc3ViMTUsIHNldFN1YjE1XSA9IHVzZVN0YXRlKDApO1xyXG4gICAgY29uc3QgW3N1YjE2LCBzZXRTdWIxNl0gPSB1c2VTdGF0ZSgwKTtcclxuICAgIGNvbnN0IFtzdWIxNywgc2V0U3ViMTddID0gdXNlU3RhdGUoMCk7XHJcbiAgICBjb25zdCBbc3ViMTgsIHNldFN1YjE4XSA9IHVzZVN0YXRlKDApO1xyXG4gICAgY29uc3QgW292ZXJhbGw1LCBzZXRPdmVyYWxsNV0gPSB1c2VTdGF0ZSgwKTtcclxuXHJcbiAgICBjb25zdCBbc3VtX292ZXJhbGwxLCBzZXRTdW1PdmVyYWxsMV0gPSB1c2VTdGF0ZSgwKTtcclxuICAgIGNvbnN0IFtzdW1fb3ZlcmFsbDIsIHNldFN1bU92ZXJhbGwyXSA9IHVzZVN0YXRlKDApO1xyXG4gICAgY29uc3QgW3N1bV9vdmVyYWxsMywgc2V0U3VtT3ZlcmFsbDNdID0gdXNlU3RhdGUoMCk7XHJcblxyXG4gICAgdXNlRWZmZWN0KCgpID0+IHtcclxuICAgICAgICAvLyBjb25zb2xlLmxvZyhwcm9wcy5kYXRhKTtcclxuICAgICAgICAvLyBjb25zb2xlLmxvZyhwcm9wcy5kYXRhLk5PKTtcclxuICAgICAgICBzZXRTdWIxKHByb3BzLmRhdGEuUkVTVUxUMDEpO1xyXG4gICAgICAgIHNldFN1YjIocHJvcHMuZGF0YS5SRVNVTFQwMik7XHJcbiAgICAgICAgc2V0U3ViMyhwcm9wcy5kYXRhLlJFU1VMVDAzKTtcclxuICAgICAgICBzZXRTdWI0KHByb3BzLmRhdGEuUkVTVUxUMDQpO1xyXG4gICAgICAgIHNldFN1YjUocHJvcHMuZGF0YS5SRVNVTFQwNSk7XHJcbiAgICAgICAgc2V0U3ViNihwcm9wcy5kYXRhLlJFU1VMVDA2KTtcclxuICAgICAgICBzZXRTdWI3KHByb3BzLmRhdGEuUkVTVUxUMDcpO1xyXG4gICAgICAgIHNldFN1YjgocHJvcHMuZGF0YS5SRVNVTFQwOCk7XHJcbiAgICAgICAgc2V0U3ViOShwcm9wcy5kYXRhLlJFU1VMVDA5KTtcclxuICAgICAgICBzZXRTdWIxMChwcm9wcy5kYXRhLlJFU1VMVDEwKTtcclxuICAgICAgICBzZXRTdWIxMShwcm9wcy5kYXRhLlJFU1VMVDExKTtcclxuICAgICAgICBzZXRTdWIxMihwcm9wcy5kYXRhLlJFU1VMVDEyKTtcclxuICAgICAgICBzZXRTdWIxMyhwcm9wcy5kYXRhLlJFU1VMVDEzKTtcclxuICAgICAgICBzZXRTdWIxNChwcm9wcy5kYXRhLlJFU1VMVDE0KTtcclxuICAgICAgICBzZXRTdWIxNShwcm9wcy5kYXRhLlJFU1VMVDE1KTtcclxuICAgICAgICBzZXRTdWIxNihwcm9wcy5kYXRhLlJFU1VMVDE2KTtcclxuICAgICAgICBzZXRTdWIxNyhwcm9wcy5kYXRhLlJFU1VMVDE3KTtcclxuICAgICAgICBzZXRTdWIxOChwcm9wcy5kYXRhLlJFU1VMVDE4KTtcclxuXHJcbiAgICAgICAgc2V0UmVzdWx0Q2xhc3MocHJvcHMuZGF0YS5DTEFTUyk7XHJcbiAgICAgICAgc2V0Q29tbWVudChwcm9wcy5kYXRhLkNPTU1FTlQpO1xyXG5cclxuICAgICAgICBzZXROYW1lKHByb3BzLmRhdGEuTkFNRSk7XHJcbiAgICAgICAgc2V0U2Nob29sKHByb3BzLmRhdGEuU0NIT09MKTtcclxuICAgIH0sIFtdKTtcclxuXHJcbiAgICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgICAgIGxldCBzdW0gPSBjYWxjdWxhdGUoW3N1YjEsIHN1YjIsIHN1YjNdKTtcclxuICAgICAgICAvLyBjb25zb2xlLmxvZyhzdW0pO1xyXG4gICAgICAgIHNldE92ZXJhbGwxKHN1bSk7XHJcbiAgICB9LCBbc3ViMSwgc3ViMiwgc3ViM10pO1xyXG5cclxuICAgIHVzZUVmZmVjdCgoKSA9PiB7XHJcbiAgICAgICAgbGV0IHN1bSA9IGNhbGN1bGF0ZShbc3ViNCwgc3ViNV0pO1xyXG4gICAgICAgIC8vIGNvbnNvbGUubG9nKHN1bSk7XHJcbiAgICAgICAgc2V0T3ZlcmFsbDIoc3VtKTtcclxuICAgIH0sIFtzdWI0LCBzdWI1XSk7XHJcblxyXG4gICAgdXNlRWZmZWN0KCgpID0+IHtcclxuICAgICAgICBsZXQgc3VtID0gY2FsY3VsYXRlKFtzdWI2LCBzdWI3LCBzdWI4XSk7XHJcbiAgICAgICAgLy8gY29uc29sZS5sb2coc3VtKTtcclxuICAgICAgICBzZXRPdmVyYWxsMyhzdW0pO1xyXG4gICAgfSwgW3N1YjYsIHN1YjcsIHN1YjhdKTtcclxuXHJcbiAgICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgICAgIGxldCBzdW0gPSBjYWxjdWxhdGUoW3N1YjksIHN1YjEwLCBzdWIxMSwgc3ViMTIsIHN1YjEzXSk7XHJcbiAgICAgICAgLy8gY29uc29sZS5sb2coc3VtKTtcclxuICAgICAgICBzZXRPdmVyYWxsNChzdW0pO1xyXG4gICAgfSwgW3N1YjksIHN1YjEwLCBzdWIxMSwgc3ViMTIsIHN1YjEzXSk7XHJcblxyXG4gICAgdXNlRWZmZWN0KCgpID0+IHtcclxuICAgICAgICBsZXQgc3VtID0gY2FsY3VsYXRlKFtzdWIxNCwgc3ViMTUsIHN1YjE2LCBzdWIxNywgc3ViMThdKTtcclxuICAgICAgICAvLyBjb25zb2xlLmxvZyhzdW0pO1xyXG4gICAgICAgIHNldE92ZXJhbGw1KHN1bSk7XHJcbiAgICB9LCBbc3ViMTQsIHN1YjE1LCBzdWIxNiwgc3ViMTcsIHN1YjE4XSk7XHJcblxyXG4gICAgdXNlRWZmZWN0KCgpID0+IHtcclxuICAgICAgICBsZXQgc3VtID0gY2FsY3VsYXRlKFtvdmVyYWxsMSAqIDEsIG92ZXJhbGwyICogMSwgb3ZlcmFsbDMgKiAxXSk7XHJcbiAgICAgICAgLy8gY29uc29sZS5sb2coc3VtKTtcclxuICAgICAgICBzZXRTdW1PdmVyYWxsMShzdW0pO1xyXG4gICAgfSwgW292ZXJhbGwxLCBvdmVyYWxsMiwgb3ZlcmFsbDNdKTtcclxuXHJcbiAgICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgICAgIGxldCBzdW0gPSBjYWxjdWxhdGUoW292ZXJhbGw0ICogMSwgb3ZlcmFsbDUgKiAxXSk7XHJcbiAgICAgICAgLy8gY29uc29sZS5sb2coc3VtKTtcclxuICAgICAgICBzZXRTdW1PdmVyYWxsMihzdW0pO1xyXG4gICAgfSwgW292ZXJhbGw0LCBvdmVyYWxsNV0pO1xyXG5cclxuICAgIHVzZUVmZmVjdCgoKSA9PiB7XHJcbiAgICAgICAgbGV0IHN1bSA9IGNhbGN1bGF0ZShbc3VtX292ZXJhbGwxICogMSwgc3VtX292ZXJhbGwyICogMV0pO1xyXG4gICAgICAgIC8vIGNvbnNvbGUubG9nKHN1bSk7XHJcbiAgICAgICAgc2V0U3VtT3ZlcmFsbDMoc3VtKTtcclxuICAgIH0sIFtzdW1fb3ZlcmFsbDEsIHN1bV9vdmVyYWxsMl0pO1xyXG5cclxuICAgIGNvbnN0IG9uQ2hhbmdlID0gKGUpID0+IHtcclxuICAgICAgICBzd2l0Y2ggKGUudGFyZ2V0Lm5hbWUpIHtcclxuICAgICAgICAgICAgY2FzZSBcIm5hbWVcIjpcclxuICAgICAgICAgICAgICAgIHNldE5hbWUoZS50YXJnZXQudmFsdWUpO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJyZXN1bHRfY2xhc3NcIjpcclxuICAgICAgICAgICAgICAgIHNldFJlc3VsdENsYXNzKGUudGFyZ2V0LnZhbHVlKTtcclxuICAgICAgICAgICAgICAgIC8vIGNvbnNvbGUubG9nKGUudGFyZ2V0LnZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwicmVzdWx0X2NvbW1lbnRcIjpcclxuICAgICAgICAgICAgICAgIHNldENvbW1lbnQoZS50YXJnZXQudmFsdWUpO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGRlZmF1bHQ6XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICB9XHJcbiAgICAgICAgLy8gY29uc29sZS5sb2cobmFtZSk7XHJcbiAgICB9O1xyXG4gICAgY29uc3Qgb25DaGFuZ2UyID0gKGUpID0+IHtcclxuICAgICAgICBzZXRTY2hvb2woZS50YXJnZXQudmFsdWUpO1xyXG4gICAgICAgIC8vIGNvbnNvbGUubG9nKG5hbWUpO1xyXG4gICAgfTtcclxuXHJcbiAgICBjb25zdCBoYW5kbGVTbGlkZXJDaGFuZ2UgPSAoZXZlbnQsIG5ld1ZhbHVlKSA9PiB7XHJcbiAgICAgICAgc3dpdGNoIChldmVudC50YXJnZXQubmFtZSkge1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMVwiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViMShuZXdWYWx1ZSk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjJcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjIobmV3VmFsdWUpO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWIzXCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWIzKG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViNFwiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViNChuZXdWYWx1ZSk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjVcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjUobmV3VmFsdWUpO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWI2XCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWI2KG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViN1wiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViNyhuZXdWYWx1ZSk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjhcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjgobmV3VmFsdWUpO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWI5XCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWI5KG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTBcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjEwKG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTFcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjExKG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTJcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjEyKG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTNcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjEzKG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTRcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjE0KG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTVcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjE1KG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTZcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjE2KG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTdcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjE3KG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMThcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjE4KG5ld1ZhbHVlKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBkZWZhdWx0OlxyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAvLyBjb25zb2xlLmxvZyhldmVudC50YXJnZXQpO1xyXG4gICAgfTtcclxuXHJcbiAgICBjb25zdCBoYW5kbGVJbnB1dENoYW5nZSA9IChldmVudCkgPT4ge1xyXG4gICAgICAgIHN3aXRjaCAoZXZlbnQudGFyZ2V0Lm5hbWUpIHtcclxuICAgICAgICAgICAgY2FzZSBcInN1YjFcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjEoXHJcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQudGFyZ2V0LnZhbHVlID09PSBcIlwiID8gXCJcIiA6IE51bWJlcihldmVudC50YXJnZXQudmFsdWUpLFxyXG4gICAgICAgICAgICAgICAgKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMlwiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViMihcclxuICAgICAgICAgICAgICAgICAgICBldmVudC50YXJnZXQudmFsdWUgPT09IFwiXCIgPyBcIlwiIDogTnVtYmVyKGV2ZW50LnRhcmdldC52YWx1ZSksXHJcbiAgICAgICAgICAgICAgICApO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWIzXCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWIzKFxyXG4gICAgICAgICAgICAgICAgICAgIGV2ZW50LnRhcmdldC52YWx1ZSA9PT0gXCJcIiA/IFwiXCIgOiBOdW1iZXIoZXZlbnQudGFyZ2V0LnZhbHVlKSxcclxuICAgICAgICAgICAgICAgICk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjRcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjQoXHJcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQudGFyZ2V0LnZhbHVlID09PSBcIlwiID8gXCJcIiA6IE51bWJlcihldmVudC50YXJnZXQudmFsdWUpLFxyXG4gICAgICAgICAgICAgICAgKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViNVwiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViNShcclxuICAgICAgICAgICAgICAgICAgICBldmVudC50YXJnZXQudmFsdWUgPT09IFwiXCIgPyBcIlwiIDogTnVtYmVyKGV2ZW50LnRhcmdldC52YWx1ZSksXHJcbiAgICAgICAgICAgICAgICApO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWI2XCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWI2KFxyXG4gICAgICAgICAgICAgICAgICAgIGV2ZW50LnRhcmdldC52YWx1ZSA9PT0gXCJcIiA/IFwiXCIgOiBOdW1iZXIoZXZlbnQudGFyZ2V0LnZhbHVlKSxcclxuICAgICAgICAgICAgICAgICk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjdcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjcoXHJcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQudGFyZ2V0LnZhbHVlID09PSBcIlwiID8gXCJcIiA6IE51bWJlcihldmVudC50YXJnZXQudmFsdWUpLFxyXG4gICAgICAgICAgICAgICAgKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViOFwiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViOChcclxuICAgICAgICAgICAgICAgICAgICBldmVudC50YXJnZXQudmFsdWUgPT09IFwiXCIgPyBcIlwiIDogTnVtYmVyKGV2ZW50LnRhcmdldC52YWx1ZSksXHJcbiAgICAgICAgICAgICAgICApO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWI5XCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWI5KFxyXG4gICAgICAgICAgICAgICAgICAgIGV2ZW50LnRhcmdldC52YWx1ZSA9PT0gXCJcIiA/IFwiXCIgOiBOdW1iZXIoZXZlbnQudGFyZ2V0LnZhbHVlKSxcclxuICAgICAgICAgICAgICAgICk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjEwXCI6XHJcbiAgICAgICAgICAgICAgICBzdWIxMChcclxuICAgICAgICAgICAgICAgICAgICBldmVudC50YXJnZXQudmFsdWUgPT09IFwiXCIgPyBcIlwiIDogTnVtYmVyKGV2ZW50LnRhcmdldC52YWx1ZSksXHJcbiAgICAgICAgICAgICAgICApO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWIxMVwiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViMTEoXHJcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQudGFyZ2V0LnZhbHVlID09PSBcIlwiID8gXCJcIiA6IE51bWJlcihldmVudC50YXJnZXQudmFsdWUpLFxyXG4gICAgICAgICAgICAgICAgKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTJcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjEyKFxyXG4gICAgICAgICAgICAgICAgICAgIGV2ZW50LnRhcmdldC52YWx1ZSA9PT0gXCJcIiA/IFwiXCIgOiBOdW1iZXIoZXZlbnQudGFyZ2V0LnZhbHVlKSxcclxuICAgICAgICAgICAgICAgICk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjEzXCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWIxMyhcclxuICAgICAgICAgICAgICAgICAgICBldmVudC50YXJnZXQudmFsdWUgPT09IFwiXCIgPyBcIlwiIDogTnVtYmVyKGV2ZW50LnRhcmdldC52YWx1ZSksXHJcbiAgICAgICAgICAgICAgICApO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWIxNFwiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViMTQoXHJcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQudGFyZ2V0LnZhbHVlID09PSBcIlwiID8gXCJcIiA6IE51bWJlcihldmVudC50YXJnZXQudmFsdWUpLFxyXG4gICAgICAgICAgICAgICAgKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMTVcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjE1KFxyXG4gICAgICAgICAgICAgICAgICAgIGV2ZW50LnRhcmdldC52YWx1ZSA9PT0gXCJcIiA/IFwiXCIgOiBOdW1iZXIoZXZlbnQudGFyZ2V0LnZhbHVlKSxcclxuICAgICAgICAgICAgICAgICk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgY2FzZSBcInN1YjE2XCI6XHJcbiAgICAgICAgICAgICAgICBzZXRTdWIxNihcclxuICAgICAgICAgICAgICAgICAgICBldmVudC50YXJnZXQudmFsdWUgPT09IFwiXCIgPyBcIlwiIDogTnVtYmVyKGV2ZW50LnRhcmdldC52YWx1ZSksXHJcbiAgICAgICAgICAgICAgICApO1xyXG4gICAgICAgICAgICAgICAgYnJlYWs7XHJcbiAgICAgICAgICAgIGNhc2UgXCJzdWIxN1wiOlxyXG4gICAgICAgICAgICAgICAgc2V0U3ViMTcoXHJcbiAgICAgICAgICAgICAgICAgICAgZXZlbnQudGFyZ2V0LnZhbHVlID09PSBcIlwiID8gXCJcIiA6IE51bWJlcihldmVudC50YXJnZXQudmFsdWUpLFxyXG4gICAgICAgICAgICAgICAgKTtcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgICAgICBjYXNlIFwic3ViMThcIjpcclxuICAgICAgICAgICAgICAgIHNldFN1YjE4KFxyXG4gICAgICAgICAgICAgICAgICAgIGV2ZW50LnRhcmdldC52YWx1ZSA9PT0gXCJcIiA/IFwiXCIgOiBOdW1iZXIoZXZlbnQudGFyZ2V0LnZhbHVlKSxcclxuICAgICAgICAgICAgICAgICk7XHJcbiAgICAgICAgICAgICAgICBicmVhaztcclxuICAgICAgICAgICAgZGVmYXVsdDpcclxuICAgICAgICAgICAgICAgIGJyZWFrO1xyXG4gICAgICAgIH1cclxuICAgIH07XHJcblxyXG4gICAgY29uc3QgaGFuZGxlQmx1ciA9ICgpID0+IHtcclxuICAgICAgICBpZiAoc3ViMSA8IDApIHtcclxuICAgICAgICAgICAgc2V0U3ViMSgwKTtcclxuICAgICAgICAgICAgY29uc29sZS5sb2coXCJibHVyU3ViMT0wXCIpO1xyXG4gICAgICAgIH0gZWxzZSBpZiAoc3ViMSA+IDEwMCkge1xyXG4gICAgICAgICAgICBzZXRTdWIxKDEwMCk7XHJcbiAgICAgICAgICAgIGNvbnNvbGUubG9nKFwiYmx1clN1YjE9MTAwXCIpO1xyXG4gICAgICAgIH0gZWxzZSBpZiAoc3ViMiA8IDApIHtcclxuICAgICAgICAgICAgc2V0U3ViMigwKTtcclxuICAgICAgICAgICAgY29uc29sZS5sb2coXCJibHVyU3ViMj0wXCIpO1xyXG4gICAgICAgIH0gZWxzZSBpZiAoc3ViMiA+IDEwMCkge1xyXG4gICAgICAgICAgICBzZXRTdWIyKDEwMCk7XHJcbiAgICAgICAgICAgIGNvbnNvbGUubG9nKFwiYmx1clN1YjI9MTAwXCIpO1xyXG4gICAgICAgIH1cclxuICAgIH07XHJcblxyXG4gICAgZnVuY3Rpb24gU2F2ZSgpIHtcclxuICAgICAgICBmZXRjaChcImFwaS9zYXZlX2V4MlwiLCB7XHJcbiAgICAgICAgICAgIG1ldGhvZDogXCJQT1NUXCIsXHJcbiAgICAgICAgICAgIGhlYWRlcnM6IHtcclxuICAgICAgICAgICAgICAgIFwiQ29udGVudC1UeXBlXCI6IFwiYXBwbGljYXRpb24vanNvblwiLFxyXG4gICAgICAgICAgICB9LFxyXG4gICAgICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7XHJcbiAgICAgICAgICAgICAgICBuYW1lOiBuYW1lLFxyXG4gICAgICAgICAgICAgICAgc2Nob29sOiBzY2hvb2wsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQwMTogc3ViMSxcclxuICAgICAgICAgICAgICAgIHJlc3VsdDAyOiBzdWIyLFxyXG4gICAgICAgICAgICAgICAgcmVzdWx0MDM6IHN1YjMsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQwNDogc3ViNCxcclxuICAgICAgICAgICAgICAgIHJlc3VsdDA1OiBzdWI1LFxyXG4gICAgICAgICAgICAgICAgcmVzdWx0MDY6IHN1YjYsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQwNzogc3ViNyxcclxuICAgICAgICAgICAgICAgIHJlc3VsdDA4OiBzdWI4LFxyXG4gICAgICAgICAgICAgICAgcmVzdWx0MDk6IHN1YjksXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxMDogc3ViMTAsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxMTogc3ViMTEsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxMjogc3ViMTIsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxMzogc3ViMTMsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxNDogc3ViMTQsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxNTogc3ViMTUsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxNjogc3ViMTYsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxNzogc3ViMTcsXHJcbiAgICAgICAgICAgICAgICByZXN1bHQxODogc3ViMTgsXHJcbiAgICAgICAgICAgICAgICByZXN1bHRfY2xhc3M6IHJlc3VsdF9jbGFzcyxcclxuICAgICAgICAgICAgICAgIGNvbW1lbnQ6IHJlc3VsdF9jb21tZW50LFxyXG4gICAgICAgICAgICB9KSxcclxuICAgICAgICB9KVxyXG4gICAgICAgICAgICAudGhlbigocmVzKSA9PiBjYWxsQmFjayhyZXMpKVxyXG4gICAgICAgICAgICAvLyAudGhlbigoZGF0YSkgPT4ge1xyXG4gICAgICAgICAgICAudGhlbigoZGF0YSkgPT4ge1xyXG4gICAgICAgICAgICAgICAgLy8gY29uc29sZS5sb2coZGF0YSk7XHJcbiAgICAgICAgICAgIH0pO1xyXG4gICAgfVxyXG5cclxuICAgIGZ1bmN0aW9uIGNhbGxCYWNrKHJlcykge1xyXG4gICAgICAgIC8vIGFsZXJ0KFwiQ29tcGxldGUgIFNhdmUhXCIpO1xyXG4gICAgICAgIGlmIChyZXMuc3RhdHVzID09IDIwMCkge1xyXG4gICAgICAgICAgICBhbGVydChcIkNvbXBsZXRlICBTYXZlIVwiKTtcclxuICAgICAgICAgICAgd2luZG93LmxvY2F0aW9uLmhyZWYgPSBcIi9cIjtcclxuICAgICAgICB9IGVsc2Uge1xyXG4gICAgICAgICAgICBhbGVydChyZXMubWVzc2FnZSk7XHJcbiAgICAgICAgfVxyXG4gICAgfVxyXG5cclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPEluZm8+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiSGVhZGVyXCI+XHJcbiAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbCBjbGFzc05hbWU9XCJoZWFkZXJMYWJlbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgIFJJVEUgRElBR05PU1RJQyBURVNUIChFWDIpXHJcbiAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcbiAgICAgICAgICAgICAgICB7LyogPGgxPlJJVEUgRElBR05PU1RJQyBURVNUIChFWDEpPC9oMT4gKi99XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpbmZvXCI+XHJcbiAgICAgICAgICAgICAgICA8U3RhY2tcclxuICAgICAgICAgICAgICAgICAgICBzeD17eyBwdDogMyB9fVxyXG4gICAgICAgICAgICAgICAgICAgIGRpcmVjdGlvbj1cInJvd1wiXHJcbiAgICAgICAgICAgICAgICAgICAgc3BhY2luZz17MX1cclxuICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5Q29udGVudD1cImNlbnRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgLy8gYWxpZ25JdGVtcz1cImNlbnRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgYWxpZ25Db250ZW50PXtcImNlbnRlclwifVxyXG4gICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgIDxJbnB1dExhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImluZm9MYWJlbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIE5hbWVcclxuICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcbiAgICAgICAgICAgICAgICAgICAgPElucHV0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImluZm9JbnB1dFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJuYW1lXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJuYW1lXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e29uQ2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17bmFtZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgLy8gcGxhY2Vob2xkZXI9XCJFbnRlciBOYW1lLlwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0UHJvcHM9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IDE1LFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxNTAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dEFsaWduOiBcImNlbnRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgIDxJbnB1dExhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cImluZm9MYWJlbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIFNjaG9vbC9HcmFkZVxyXG4gICAgICAgICAgICAgICAgICAgIDwvSW5wdXRMYWJlbD5cclxuICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwiaW5mb0lucHV0XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJzY2hvb2xcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17b25DaGFuZ2UyfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c2Nob29sfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAvLyBwbGFjZWhvbGRlcj1cIkVudGVyIFNjaG9vbC9HcmFkZS5cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByb3BzPXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZToge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiAxNSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMTUwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHRBbGlnbjogXCJjZW50ZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICB7LyogPEJ1dHRvblxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJidG5TYXZlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgdmFyaWFudD1cImNvbnRhaW5lZFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e1NhdmV9XHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICDsoIDsnqVcclxuICAgICAgICAgICAgICAgICAgICA8L0J1dHRvbj4gKi99XHJcbiAgICAgICAgICAgICAgICA8L1N0YWNrPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiU3ViamVjdFwiPlxyXG4gICAgICAgICAgICAgICAgPEJveCBtYXJnaW49ezR9PlxyXG4gICAgICAgICAgICAgICAgICAgIDxJbnB1dExhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInN1YmplY3RMYWJlbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIFZvY2FidWxhcnlcclxuICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdFNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGd1dHRlckJvdHRvbVxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgMSkgU3BlbGxpbmdcclxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgICAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezJ9IGFsaWduSXRlbXM9XCJjZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT57LyogPFZvbHVtZVVwIC8+ICovfTwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbSB4cz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dG9TbGlkZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlTGFiZWxEaXNwbGF5PVwiYXV0b1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3R5cGVvZiBzdWIxID09IFwibnVtYmVyXCIgPyBzdWIxIDogMH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlU2xpZGVyQ2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWxsZWRieT1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I9XCJwcmltYXJ5XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZD1cInN1YjFcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c3ViMX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPVwic21hbGxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9e2hhbmRsZUJsdXJ9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwOiAxLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW46IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heDogMTAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiBcIm51bWJlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFyaWEtbGFiZWxsZWRieVwiOiBcImlucHV0LXNsaWRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPFR5cG9ncmFwaHlcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0U2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgZ3V0dGVyQm90dG9tXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAyKSBNZWFuaW5nXHJcbiAgICAgICAgICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfSBhbGlnbkl0ZW1zPVwiY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+ey8qIDxWb2x1bWVVcCAvPiAqL308L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHRvU2xpZGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViMiA9PSBcIm51bWJlclwiID8gc3ViMiA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c3ViMn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPVwic21hbGxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9e2hhbmRsZUJsdXJ9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwOiAxLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW46IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heDogMTAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiBcIm51bWJlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFyaWEtbGFiZWxsZWRieVwiOiBcImlucHV0LXNsaWRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPFR5cG9ncmFwaHlcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0U2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgZ3V0dGVyQm90dG9tXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAzKSBWc2FnZVxyXG4gICAgICAgICAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cclxuICAgICAgICAgICAgICAgICAgICA8R3JpZCBjb250YWluZXIgc3BhY2luZz17Mn0gYWxpZ25JdGVtcz1cImNlbnRlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtPnsvKiA8Vm9sdW1lVXAgLz4gKi99PC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtIHhzPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPFByZXR0b1NsaWRlclxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVMYWJlbERpc3BsYXk9XCJhdXRvXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dHlwZW9mIHN1YjMgPT0gXCJudW1iZXJcIiA/IHN1YjMgOiAwfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVTbGlkZXJDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbGxlZGJ5PVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViM1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViM1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1YjN9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZT1cInNtYWxsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlSW5wdXRDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25CbHVyPXtoYW5kbGVCbHVyfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0UHJvcHM9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcDogMSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluOiAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXg6IDEwMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogXCJudW1iZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhcmlhLWxhYmVsbGVkYnlcIjogXCJpbnB1dC1zbGlkZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZE9ubHk6IHRydWUsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwib3ZlcmFsbERpdlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwib3ZlcmFsbExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgT3ZlcmFsbCZuYnNwOzombmJzcDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwib3ZlcmFsbExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJvdmVyYWxsMVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtvdmVyYWxsMX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0TGFiZWxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBodG1sRm9yPVwiY29tcG9uZW50LXNpbXBsZVwiXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBSZWFkaW5nIENvbXByZWhlbnNpb25cclxuICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdFNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGd1dHRlckJvdHRvbVxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgMSkgTWFpbiBpZGVhXHJcbiAgICAgICAgICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfSBhbGlnbkl0ZW1zPVwiY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+ey8qIDxWb2x1bWVVcCAvPiAqL308L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHRvU2xpZGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViNCA9PSBcIm51bWJlclwiID8gc3ViNCA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWI0XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWI0XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c3ViNH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPVwic21hbGxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9e2hhbmRsZUJsdXJ9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwOiAxLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW46IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heDogMTAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiBcIm51bWJlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFyaWEtbGFiZWxsZWRieVwiOiBcImlucHV0LXNsaWRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPFR5cG9ncmFwaHlcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0U2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgZ3V0dGVyQm90dG9tXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAyKSBLZXkgZGV0YWlsc1xyXG4gICAgICAgICAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cclxuICAgICAgICAgICAgICAgICAgICA8R3JpZCBjb250YWluZXIgc3BhY2luZz17Mn0gYWxpZ25JdGVtcz1cImNlbnRlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtPnsvKiA8Vm9sdW1lVXAgLz4gKi99PC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtIHhzPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPFByZXR0b1NsaWRlclxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVMYWJlbERpc3BsYXk9XCJhdXRvXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dHlwZW9mIHN1YjUgPT0gXCJudW1iZXJcIiA/IHN1YjUgOiAwfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVTbGlkZXJDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbGxlZGJ5PVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViNVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViNVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1YjV9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZT1cInNtYWxsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlSW5wdXRDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25CbHVyPXtoYW5kbGVCbHVyfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0UHJvcHM9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcDogMSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluOiAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXg6IDEwMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogXCJudW1iZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhcmlhLWxhYmVsbGVkYnlcIjogXCJpbnB1dC1zbGlkZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZE9ubHk6IHRydWUsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwib3ZlcmFsbERpdlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwib3ZlcmFsbExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgT3ZlcmFsbCZuYnNwOzombmJzcDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwib3ZlcmFsbExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJvdmVyYWxsMlwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtvdmVyYWxsMn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0TGFiZWxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBodG1sRm9yPVwiY29tcG9uZW50LXNpbXBsZVwiXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBHcmFtbWFyXHJcbiAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpZD1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInN1YmplY3RTbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBndXR0ZXJCb3R0b21cclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDEpIEJhc2ljXHJcbiAgICAgICAgICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfSBhbGlnbkl0ZW1zPVwiY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+ey8qIDxWb2x1bWVVcCAvPiAqL308L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHRvU2xpZGVyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViNiA9PSBcIm51bWJlclwiID8gc3ViNiA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWI2XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWI2XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c3ViNn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPVwic21hbGxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9e2hhbmRsZUJsdXJ9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwOiAxLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW46IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heDogMTAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiBcIm51bWJlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFyaWEtbGFiZWxsZWRieVwiOiBcImlucHV0LXNsaWRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPFR5cG9ncmFwaHlcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0U2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgZ3V0dGVyQm90dG9tXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAyKSBJbnRlcm1lZGlhdGVcclxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgICAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezJ9IGFsaWduSXRlbXM9XCJjZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT57LyogPFZvbHVtZVVwIC8+ICovfTwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbSB4cz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dG9TbGlkZXJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlTGFiZWxEaXNwbGF5PVwiYXV0b1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3R5cGVvZiBzdWI3ID09IFwibnVtYmVyXCIgPyBzdWI3IDogMH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlU2xpZGVyQ2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWxsZWRieT1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjdcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjdcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtzdWI3fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU9XCJzbWFsbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17aGFuZGxlQmx1cn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByb3BzPXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA6IDEsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbjogMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4OiAxMDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU6IFwibnVtYmVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYXJpYS1sYWJlbGxlZGJ5XCI6IFwiaW5wdXQtc2xpZGVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdFNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGd1dHRlckJvdHRvbVxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgMykgQWR2YW5jZVxyXG4gICAgICAgICAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cclxuICAgICAgICAgICAgICAgICAgICA8R3JpZCBjb250YWluZXIgc3BhY2luZz17Mn0gYWxpZ25JdGVtcz1cImNlbnRlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtPnsvKiA8Vm9sdW1lVXAgLz4gKi99PC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtIHhzPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPFByZXR0b1NsaWRlclxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVMYWJlbERpc3BsYXk9XCJhdXRvXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dHlwZW9mIHN1YjggPT0gXCJudW1iZXJcIiA/IHN1YjggOiAwfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVTbGlkZXJDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbGxlZGJ5PVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViOFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViOFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1Yjh9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZT1cInNtYWxsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlSW5wdXRDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25CbHVyPXtoYW5kbGVCbHVyfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0UHJvcHM9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcDogMSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluOiAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXg6IDEwMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogXCJudW1iZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhcmlhLWxhYmVsbGVkYnlcIjogXCJpbnB1dC1zbGlkZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZE9ubHk6IHRydWUsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwib3ZlcmFsbERpdlwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwib3ZlcmFsbExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgT3ZlcmFsbCZuYnNwOzombmJzcDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwib3ZlcmFsbExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJvdmVyYWxsM1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHtvdmVyYWxsM31cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgICAgIDxicj48L2JyPlxyXG4gICAgICAgICAgICAgICAgICAgIDxJbnB1dExhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInN1YmplY3RMYWJlbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGh0bWxGb3I9XCJjb21wb25lbnQtc2ltcGxlXCJcclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIE9yYWxcclxuICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdFNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGd1dHRlckJvdHRvbVxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgMSkgTGlzdGVuaW5nIENvbXByZWhlbnNpb25cclxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgICAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezJ9IGFsaWduSXRlbXM9XCJjZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT57LyogPFZvbHVtZVVwIC8+ICovfTwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbSB4cz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dG9TbGlkZXIyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViOSA9PSBcIm51bWJlclwiID8gc3ViOSA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yPVwicHJpbWFyeVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJzdWI5XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViOVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViOVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1Yjl9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZT1cInNtYWxsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlSW5wdXRDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25CbHVyPXtoYW5kbGVCbHVyfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0UHJvcHM9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcDogMSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluOiAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXg6IDEwMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogXCJudW1iZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhcmlhLWxhYmVsbGVkYnlcIjogXCJpbnB1dC1zbGlkZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZE9ubHk6IHRydWUsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdFNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGd1dHRlckJvdHRvbVxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgMikgVm9jYWJ1bGFyeVxyXG4gICAgICAgICAgICAgICAgICAgIDwvVHlwb2dyYXBoeT5cclxuICAgICAgICAgICAgICAgICAgICA8R3JpZCBjb250YWluZXIgc3BhY2luZz17Mn0gYWxpZ25JdGVtcz1cImNlbnRlclwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtPnsvKiA8Vm9sdW1lVXAgLz4gKi99PC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtIHhzPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPFByZXR0b1NsaWRlcjJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlTGFiZWxEaXNwbGF5PVwiYXV0b1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3R5cGVvZiBzdWIxMCA9PSBcIm51bWJlclwiID8gc3ViMTAgOiAwfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVTbGlkZXJDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYXJpYS1sYWJlbGxlZGJ5PVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViMTBcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8R3JpZCBpdGVtPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjEwXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17c3ViMTB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2l6ZT1cInNtYWxsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlSW5wdXRDaGFuZ2V9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25CbHVyPXtoYW5kbGVCbHVyfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0UHJvcHM9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RlcDogMSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluOiAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXg6IDEwMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogXCJudW1iZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCJhcmlhLWxhYmVsbGVkYnlcIjogXCJpbnB1dC1zbGlkZXJcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcmVhZE9ubHk6IHRydWUsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdFNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGd1dHRlckJvdHRvbVxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgMykgU3RydWN0dXJlXHJcbiAgICAgICAgICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfSBhbGlnbkl0ZW1zPVwiY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+ey8qIDxWb2x1bWVVcCAvPiAqL308L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHRvU2xpZGVyMlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVMYWJlbERpc3BsYXk9XCJhdXRvXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dHlwZW9mIHN1YjExID09IFwibnVtYmVyXCIgPyBzdWIxMSA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxMVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViMTFcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtzdWIxMX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPVwic21hbGxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9e2hhbmRsZUJsdXJ9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwOiAxLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW46IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heDogMTAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiBcIm51bWJlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFyaWEtbGFiZWxsZWRieVwiOiBcImlucHV0LXNsaWRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpZD1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInN1YmplY3RTbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBndXR0ZXJCb3R0b21cclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDQpIEZsdWVuY3lcclxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgICAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezJ9IGFsaWduSXRlbXM9XCJjZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT57LyogPFZvbHVtZVVwIC8+ICovfTwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbSB4cz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dG9TbGlkZXIyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViMTIgPT0gXCJudW1iZXJcIiA/IHN1YjEyIDogMH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlU2xpZGVyQ2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWxsZWRieT1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjEyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxMlwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1YjEyfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU9XCJzbWFsbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17aGFuZGxlQmx1cn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByb3BzPXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA6IDEsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbjogMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4OiAxMDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU6IFwibnVtYmVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYXJpYS1sYWJlbGxlZGJ5XCI6IFwiaW5wdXQtc2xpZGVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpZD1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInN1YmplY3RTbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBndXR0ZXJCb3R0b21cclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDUpIENvbW11bmljYXRpb25cclxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgICAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezJ9IGFsaWduSXRlbXM9XCJjZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT57LyogPFZvbHVtZVVwIC8+ICovfTwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbSB4cz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dG9TbGlkZXIyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViMTMgPT0gXCJudW1iZXJcIiA/IHN1YjEzIDogMH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlU2xpZGVyQ2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWxsZWRieT1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjEzXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxM1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1YjEzfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU9XCJzbWFsbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17aGFuZGxlQmx1cn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByb3BzPXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA6IDEsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbjogMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4OiAxMDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU6IFwibnVtYmVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYXJpYS1sYWJlbGxlZGJ5XCI6IFwiaW5wdXQtc2xpZGVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm92ZXJhbGxEaXZcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0TGFiZWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cIm92ZXJhbGxMYWJlbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBodG1sRm9yPVwiY29tcG9uZW50LXNpbXBsZVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIE92ZXJhbGwmbmJzcDs6Jm5ic3A7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvSW5wdXRMYWJlbD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0TGFiZWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cIm92ZXJhbGxMYWJlbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBodG1sRm9yPVwiY29tcG9uZW50LXNpbXBsZVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwib3ZlcmFsbDRcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB7b3ZlcmFsbDR9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvSW5wdXRMYWJlbD5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPElucHV0TGFiZWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgaHRtbEZvcj1cImNvbXBvbmVudC1zaW1wbGVcIlxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgV3JpdGluZ1xyXG4gICAgICAgICAgICAgICAgICAgIDwvSW5wdXRMYWJlbD5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPFR5cG9ncmFwaHlcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0U2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgZ3V0dGVyQm90dG9tXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAxKSBHcmFtbWFyXHJcbiAgICAgICAgICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfSBhbGlnbkl0ZW1zPVwiY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+ey8qIDxWb2x1bWVVcCAvPiAqL308L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHRvU2xpZGVyMlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVMYWJlbERpc3BsYXk9XCJhdXRvXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dHlwZW9mIHN1YjE0ID09IFwibnVtYmVyXCIgPyBzdWIxNCA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yPVwicHJpbWFyeVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJzdWIxNFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjE0XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxNFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1YjE0fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU9XCJzbWFsbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17aGFuZGxlQmx1cn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByb3BzPXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA6IDEsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbjogMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4OiAxMDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU6IFwibnVtYmVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYXJpYS1sYWJlbGxlZGJ5XCI6IFwiaW5wdXQtc2xpZGVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpZD1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInN1YmplY3RTbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBndXR0ZXJCb3R0b21cclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDIpIFZvY2FidWxhcnlcclxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgICAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezJ9IGFsaWduSXRlbXM9XCJjZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT57LyogPFZvbHVtZVVwIC8+ICovfTwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbSB4cz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dG9TbGlkZXIyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViMTUgPT0gXCJudW1iZXJcIiA/IHN1YjE1IDogMH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlU2xpZGVyQ2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWxsZWRieT1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjE1XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxNVwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1YjE1fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU9XCJzbWFsbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17aGFuZGxlQmx1cn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByb3BzPXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA6IDEsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbjogMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4OiAxMDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU6IFwibnVtYmVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYXJpYS1sYWJlbGxlZGJ5XCI6IFwiaW5wdXQtc2xpZGVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG5cclxuICAgICAgICAgICAgICAgICAgICA8VHlwb2dyYXBoeVxyXG4gICAgICAgICAgICAgICAgICAgICAgICBpZD1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInN1YmplY3RTbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBndXR0ZXJCb3R0b21cclxuICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDMpIENvbnZlbnRpb25cclxuICAgICAgICAgICAgICAgICAgICA8L1R5cG9ncmFwaHk+XHJcbiAgICAgICAgICAgICAgICAgICAgPEdyaWQgY29udGFpbmVyIHNwYWNpbmc9ezJ9IGFsaWduSXRlbXM9XCJjZW50ZXJcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT57LyogPFZvbHVtZVVwIC8+ICovfTwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbSB4cz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxQcmV0dG9TbGlkZXIyXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzYWJsZWRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXt0eXBlb2Ygc3ViMTYgPT0gXCJudW1iZXJcIiA/IHN1YjE2IDogMH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlU2xpZGVyQ2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFyaWEtbGFiZWxsZWRieT1cImlucHV0LXNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInN1YjE2XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPEdyaWQgaXRlbT5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxNlwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWU9e3N1YjE2fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNpemU9XCJzbWFsbFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQmx1cj17aGFuZGxlQmx1cn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBpbnB1dFByb3BzPXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZXA6IDEsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbjogMCxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4OiAxMDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHR5cGU6IFwibnVtYmVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFwiYXJpYS1sYWJlbGxlZGJ5XCI6IFwiaW5wdXQtc2xpZGVyXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDxUeXBvZ3JhcGh5XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGlkPVwiaW5wdXQtc2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwic3ViamVjdFNsaWRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGd1dHRlckJvdHRvbVxyXG4gICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgNCkgU3RydWN0dXJlXHJcbiAgICAgICAgICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfSBhbGlnbkl0ZW1zPVwiY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+ey8qIDxWb2x1bWVVcCAvPiAqL308L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHRvU2xpZGVyMlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVMYWJlbERpc3BsYXk9XCJhdXRvXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dHlwZW9mIHN1YjE3ID09IFwibnVtYmVyXCIgPyBzdWIxNyA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxN1wiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViMTdcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtzdWIxN31cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPVwic21hbGxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9e2hhbmRsZUJsdXJ9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwOiAxLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW46IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heDogMTAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiBcIm51bWJlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFyaWEtbGFiZWxsZWRieVwiOiBcImlucHV0LXNsaWRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPFR5cG9ncmFwaHlcclxuICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJzdWJqZWN0U2xpZGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgZ3V0dGVyQm90dG9tXHJcbiAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA1KSBDb250ZW50XHJcbiAgICAgICAgICAgICAgICAgICAgPC9UeXBvZ3JhcGh5PlxyXG4gICAgICAgICAgICAgICAgICAgIDxHcmlkIGNvbnRhaW5lciBzcGFjaW5nPXsyfSBhbGlnbkl0ZW1zPVwiY2VudGVyXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+ey8qIDxWb2x1bWVVcCAvPiAqL308L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0geHM+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8UHJldHRvU2xpZGVyMlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc2FibGVkXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdmFsdWVMYWJlbERpc3BsYXk9XCJhdXRvXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17dHlwZW9mIHN1YjE4ID09IFwibnVtYmVyXCIgPyBzdWIxOCA6IDB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZVNsaWRlckNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhcmlhLWxhYmVsbGVkYnk9XCJpbnB1dC1zbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJzdWIxOFwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0dyaWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxHcmlkIGl0ZW0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwic3ViMThcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtzdWIxOH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzaXplPVwic21hbGxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBvbkJsdXI9e2hhbmRsZUJsdXJ9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGVwOiAxLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW46IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heDogMTAwLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0eXBlOiBcIm51bWJlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcImFyaWEtbGFiZWxsZWRieVwiOiBcImlucHV0LXNsaWRlclwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9HcmlkPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvR3JpZD5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJvdmVyYWxsRGl2XCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dExhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJvdmVyYWxsTGFiZWxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaHRtbEZvcj1cImNvbXBvbmVudC1zaW1wbGVcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBPdmVyYWxsJm5ic3A7OiZuYnNwO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dExhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9XCJvdmVyYWxsTGFiZWxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaHRtbEZvcj1cImNvbXBvbmVudC1zaW1wbGVcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cIm92ZXJhbGw1XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAge292ZXJhbGw1fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICA8L0JveD5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiUmVzdWx0XCI+XHJcbiAgICAgICAgICAgICAgICA8VGFibGVDb250YWluZXIgY29tcG9uZW50PXtQYXBlcn0+XHJcbiAgICAgICAgICAgICAgICAgICAgPFRhYmxlIHN4PXt7IG1pbldpZHRoOiBcIjEwMCVcIiB9fSBhcmlhLWxhYmVsPVwic2ltcGxlIHRhYmxlXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUhlYWQ+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVSb3dcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzeD17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBcIiYgdGhcIjoge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogXCI1cHggNXB4XCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogXCIxLjFyZW1cIiwgLy9SZXN1bHQgVGFibGUgSGVhZGVyIGZvbnQgc2l6ZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFdlaWdodDogXCJib2xkXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGFsaWduPVwiY2VudGVyXCIgd2lkdGg9e1wiMTUlXCJ9PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBWb2NhIC8gUi9DIC8gR3JcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGFsaWduPVwiY2VudGVyXCIgd2lkdGg9e1wiMTUlXCJ9PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBPcmFsIC8gV3JpdGluZ1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgYWxpZ249XCJjZW50ZXJcIiB3aWR0aD17XCIxNSVcIn0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIE92ZXJhbGxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsIGFsaWduPVwiY2VudGVyXCIgd2lkdGg9e1wiMTUlXCJ9PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBDbGFzc1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGwgYWxpZ249XCJjZW50ZXJcIiB3aWR0aD17XCI0MCVcIn0+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIENvbW1lbnRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQ2VsbD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVSb3c+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVIZWFkPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVCb2R5PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlUm93XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3g9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgXCImOmxhc3QtY2hpbGQgdGQsICY6bGFzdC1jaGlsZCB0aFwiOiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IDAsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0sXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8VGFibGVDZWxsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduPVwiY2VudGVyXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3g9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IFwiNHB4IDRweFwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyUmlnaHQ6IFwiMnB4IHNvbGlkIGJsYWNrXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogXCIxMHJlbVwiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9fVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgID5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPElucHV0TGFiZWxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInJlc3VsdExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJyZXN1bHRfcGhvbm5pY3NcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB7c3VtX292ZXJhbGwxfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L0lucHV0TGFiZWw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbj1cImNlbnRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN4PXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiBcIjRweCA0cHhcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJpZ2h0OiBcIjJweCBzb2xpZCBibGFja1wiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IFwiMTByZW1cIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxJbnB1dExhYmVsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBuYW1lPVwicmVzdWx0X2xhbmd1YWdlXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInJlc3VsdExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3N1bV9vdmVyYWxsMn1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ249XCJjZW50ZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzeD17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogXCI0cHggNHB4XCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSaWdodDogXCIycHggc29saWQgYmxhY2tcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiBcIjEwcmVtXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRMYWJlbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInJlc3VsdF9vdmVyYWxsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInJlc3VsdExhYmVsXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAge3N1bV9vdmVyYWxsM31cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9JbnB1dExhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvVGFibGVDZWxsPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUYWJsZUNlbGxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ249XCJjZW50ZXJcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzeD17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogXCI0cHggNHB4XCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXJSaWdodDogXCIycHggc29saWQgYmxhY2tcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnRTaXplOiBcIjEwcmVtXCIsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8SW5wdXRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hbWU9XCJyZXN1bHRfY2xhc3NcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPVwicmVzdWx0TGFiZWxcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaW5wdXRQcm9wcz17e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlOiB7IHRleHRBbGlnbjogXCJjZW50ZXJcIiB9LFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHJlYWRPbmx5OiB0cnVlLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtvbkNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtyZXN1bHRfY2xhc3N9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPFRhYmxlQ2VsbFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbj1cImNlbnRlclwiXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN4PXt7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiBcIjRweCA0cHhcIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlclJpZ2h0OiBcIjJweCBzb2xpZCBibGFja1wiLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udFNpemU6IFwiMTByZW1cIixcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxUZXh0RmllbGRcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT1cInJlc3VsdENvbW1lbnRcIlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbmFtZT1cInJlc3VsdF9jb21tZW50XCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZ1bGxXaWR0aFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaWQ9XCJvdXRsaW5lZC1tdWx0aWxpbmUtc3RhdGljXCJcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG11bHRpbGluZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcm93cz17NH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtvbkNoYW5nZX1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtyZXN1bHRfY29tbWVudH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIElucHV0UHJvcHM9e3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdHlsZToge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250U2l6ZTogMTMsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDMsXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZWFkT25seTogdHJ1ZSxcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH19XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9UYWJsZUNlbGw+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L1RhYmxlUm93PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L1RhYmxlQm9keT5cclxuICAgICAgICAgICAgICAgICAgICA8L1RhYmxlPlxyXG4gICAgICAgICAgICAgICAgPC9UYWJsZUNvbnRhaW5lcj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIHsvKiA8UHJldHRvU2xpZGVyXHJcbiAgICAgICAgICAgICAgICB2YWx1ZUxhYmVsRGlzcGxheT1cImF1dG9cIlxyXG4gICAgICAgICAgICAgICAgYXJpYS1sYWJlbD1cInByZXR0byBzbGlkZXJcIlxyXG4gICAgICAgICAgICAgICAgZGVmYXVsdFZhbHVlPXsyMH1cclxuICAgICAgICAgICAgLz4gKi99XHJcbiAgICAgICAgICAgIHsvKiA8RGF0YUdyaWRcclxuICAgICAgICAgICAgICAgIHJvd3M9e3Jvd3N9XHJcbiAgICAgICAgICAgICAgICBjb2x1bW5zPXtjb2x1bW5zfVxyXG4gICAgICAgICAgICAgICAgcGFnZVNpemU9ezEwfVxyXG4gICAgICAgICAgICAgICAgcm93c1BlclBhZ2VPcHRpb25zPXtbNV19XHJcbiAgICAgICAgICAgICAgICAvLyBjaGVja2JveFNlbGVjdGlvblxyXG4gICAgICAgICAgICAgICAgZGlzYWJsZVNlbGVjdGlvbk9uQ2xpY2tcclxuICAgICAgICAgICAgICAgIGV4cGVyaW1lbnRhbEZlYXR1cmVzPXt7IG5ld0VkaXRpbmdBcGk6IHRydWUgfX1cclxuICAgICAgICAgICAgICAgIGF1dG9IZWlnaHQ9e3RydWV9XHJcbiAgICAgICAgICAgIC8+ICovfVxyXG4gICAgICAgIDwvSW5mbz5cclxuICAgICk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGV4MjtcclxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldFNlcnZlclNpZGVQcm9wcyhjb250ZXh0KSB7XHJcbiAgICAvLyBhcGkg7J207Jqp7ZW07IScIOuNsOydtO2EsCDrtojrn6zsmKTquLAgKGFzeW5jLCBhd2FpdOycvOuhnCDquLDri6TroKTso7zquLApXHJcbiAgICBjb25zdCBpZCA9IGNvbnRleHQucXVlcnkuaWQ7XHJcbiAgICAvLyBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChcImh0dHBzOi8vZXhhbXBsZV9zaXRlLmNvbS91c2VyX2RhdGFcIik7XHJcbiAgICAvLyBmZXRjaChcImh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvbGlzdDJcIilcclxuICAgIC8vIGNvbnN0IHJlcyA9IGZldGNoKFwiaHR0cDovL2xvY2FsaG9zdDozMDAwL2FwaS9saXN0MlwiLCB7XHJcbiAgICAvLyAgICAgbWV0aG9kOiBcIkdFVFwiLFxyXG4gICAgLy8gICAgIGhlYWRlcnM6IHtcclxuICAgIC8vICAgICAgICAgXCJDb250ZW50LVR5cGVcIjogXCJhcHBsaWNhdGlvbi9qc29uXCIsXHJcbiAgICAvLyAgICAgfSxcclxuICAgIC8vICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7XHJcbiAgICAvLyAgICAgICAgIG5vOiBpZCxcclxuICAgIC8vICAgICB9KSxcclxuICAgIC8vIH0pO1xyXG4gICAgLy8gY29uc3QgcmVzID0gZmV0Y2goYGh0dHA6Ly9sb2NhbGhvc3Q6MzAwMC9hcGkvbGlzdDIvJHtpZH1gLCB7XHJcbiAgICAvLyAgICAgaGVhZGVyczoge1xyXG4gICAgLy8gICAgICAgICBBY2NlcHQ6IFwiYXBwbGljYXRpb24vanNvblwiLFxyXG4gICAgLy8gICAgIH0sXHJcbiAgICAvLyB9KVxyXG4gICAgLy8gICAgIC50aGVuKChkYXRhKSA9PiBkYXRhLmpzb24oKSlcclxuICAgIC8vICAgICAudGhlbigoZGF0YSkgPT4gY29uc29sZS5sb2coZGF0YSkpO1xyXG5cclxuICAgIGNvbnN0IHJlcyA9IGF3YWl0IGF4aW9zXHJcbiAgICAgICAgLmdldChgL2FwaS9saXN0MmAsIHtcclxuICAgICAgICAgICAgcGFyYW1zOiB7XHJcbiAgICAgICAgICAgICAgICBpZDogaWQsXHJcbiAgICAgICAgICAgIH0sXHJcbiAgICAgICAgICAgIGhlYWRlcnM6IHtcclxuICAgICAgICAgICAgICAgIFwiQ29udGVudC1UeXBlXCI6IFwiYXBwbGljYXRpb24vanNvblwiLFxyXG4gICAgICAgICAgICB9LFxyXG4gICAgICAgIH0pXHJcbiAgICAgICAgLnRoZW4oZnVuY3Rpb24gKHJlcykge1xyXG4gICAgICAgICAgICAvLyBjb25zb2xlLmxvZyhyZXMuZGF0YVswXSk7XHJcbiAgICAgICAgICAgIHJldHVybiByZXMuZGF0YVswXTtcclxuICAgICAgICB9KTtcclxuXHJcbiAgICAvLyBwYWdl7JeQIHByb3Bz66GcIOyghOuLrO2VmOq4sOychO2VtCwganNvbiDtmJXsi53snLzroZwg67OA6rK97ZW07KO86riwXHJcbiAgICAvLyDtjpjsnbTsp4AgcHJvcHProZwg7KCE64us7ZWY6riwIChqc29uIO2YleyLneunjCDqsIDriqUpXHJcblxyXG4gICAgcmV0dXJuIHtcclxuICAgICAgICBwcm9wczoge1xyXG4gICAgICAgICAgICBkYXRhOiByZXMsXHJcbiAgICAgICAgfSxcclxuICAgIH07XHJcbn1cclxuXHJcbi8vIGNvbnN0IFByZXR0b1NsaWRlciA9IHN0eWxlZChTbGlkZXIpKHtcclxuLy8gICAgIC8vIGNvbG9yOiBcIiM1MmFmNzdcIixcclxuLy8gICAgIGNvbG9yOiBcIiM5N0RFQ0VcIixcclxuLy8gICAgIGhlaWdodDogNixcclxuLy8gICAgIG1hcmdpblRvcDogMSxcclxuLy8gICAgIG1hcmdpbkJvdHRvbTogMSxcclxuLy8gICAgIFwiJiAuTXVpU2xpZGVyLXRyYWNrXCI6IHtcclxuLy8gICAgICAgICBib3JkZXI6IFwibm9uZVwiLFxyXG4vLyAgICAgfSxcclxuLy8gICAgIFwiJi5NdWktZGlzYWJsZWRcIjoge1xyXG4vLyAgICAgICAgIGNvbG9yOiBcIiM5N0RFQ0VcIixcclxuLy8gICAgIH0sXHJcbi8vICAgICBcIiYgLk11aVNsaWRlci10aHVtYlwiOiB7XHJcbi8vICAgICAgICAgaGVpZ2h0OiAxOCxcclxuLy8gICAgICAgICB3aWR0aDogMTgsXHJcbi8vICAgICAgICAgYmFja2dyb3VuZENvbG9yOiBcIiNmZmZcIixcclxuLy8gICAgICAgICBib3JkZXI6IFwiMnB4IHNvbGlkIGN1cnJlbnRDb2xvclwiLFxyXG4vLyAgICAgICAgIFwiJjpmb2N1cywgJjpob3ZlciwgJi5NdWktYWN0aXZlLCAmLk11aS1mb2N1c1Zpc2libGVcIjoge1xyXG4vLyAgICAgICAgICAgICBib3hTaGFkb3c6IFwiaW5oZXJpdFwiLFxyXG4vLyAgICAgICAgIH0sXHJcbi8vICAgICAgICAgXCImOmJlZm9yZVwiOiB7XHJcbi8vICAgICAgICAgICAgIGRpc3BsYXk6IFwibm9uZVwiLFxyXG4vLyAgICAgICAgIH0sXHJcbi8vICAgICB9LFxyXG4vLyAgICAgXCImIC5NdWlTbGlkZXItdmFsdWVMYWJlbFwiOiB7XHJcbi8vICAgICAgICAgbGluZUhlaWdodDogMS4yLFxyXG4vLyAgICAgICAgIGZvbnRTaXplOiAxMixcclxuLy8gICAgICAgICBiYWNrZ3JvdW5kOiBcInVuc2V0XCIsXHJcbi8vICAgICAgICAgcGFkZGluZzogMCxcclxuLy8gICAgICAgICB3aWR0aDogMzIsXHJcbi8vICAgICAgICAgaGVpZ2h0OiAzMixcclxuLy8gICAgICAgICBib3JkZXJSYWRpdXM6IFwiNTAlIDUwJSA1MCUgMFwiLFxyXG4vLyAgICAgICAgIC8vIGJhY2tncm91bmRDb2xvcjogXCIjNTJhZjc3XCIsXHJcbi8vICAgICAgICAgYmFja2dyb3VuZENvbG9yOiBcIiM2MkI2QjdcIixcclxuLy8gICAgICAgICB0cmFuc2Zvcm1PcmlnaW46IFwiYm90dG9tIGxlZnRcIixcclxuLy8gICAgICAgICB0cmFuc2Zvcm06IFwidHJhbnNsYXRlKDUwJSwgLTEwMCUpIHJvdGF0ZSgtNDVkZWcpIHNjYWxlKDApXCIsXHJcbi8vICAgICAgICAgXCImOmJlZm9yZVwiOiB7IGRpc3BsYXk6IFwibm9uZVwiIH0sXHJcbi8vICAgICAgICAgXCImLk11aVNsaWRlci12YWx1ZUxhYmVsT3BlblwiOiB7XHJcbi8vICAgICAgICAgICAgIHRyYW5zZm9ybTogXCJ0cmFuc2xhdGUoNTAlLCAtMTAwJSkgcm90YXRlKC00NWRlZykgc2NhbGUoMSlcIixcclxuLy8gICAgICAgICB9LFxyXG4vLyAgICAgICAgIFwiJiA+ICpcIjoge1xyXG4vLyAgICAgICAgICAgICB0cmFuc2Zvcm06IFwicm90YXRlKDQ1ZGVnKVwiLFxyXG4vLyAgICAgICAgIH0sXHJcbi8vICAgICB9LFxyXG4vLyB9KTtcclxuXHJcbi8vIGNvbnN0IFByZXR0b1NsaWRlcjIgPSBzdHlsZWQoU2xpZGVyKSh7XHJcbi8vICAgICAvLyBjb2xvcjogXCIjNTJhZjc3XCIsXHJcbi8vICAgICBjb2xvcjogXCIjMTE2MEFBXCIsXHJcbi8vICAgICBoZWlnaHQ6IDYsXHJcbi8vICAgICBtYXJnaW5Ub3A6IDEsXHJcbi8vICAgICBtYXJnaW5Cb3R0b206IDEsXHJcbi8vICAgICBcIiYgLk11aVNsaWRlci10cmFja1wiOiB7XHJcbi8vICAgICAgICAgYm9yZGVyOiBcIm5vbmVcIixcclxuLy8gICAgIH0sXHJcbi8vICAgICBcIiYuTXVpLWRpc2FibGVkXCI6IHtcclxuLy8gICAgICAgICBjb2xvcjogXCIjMTE2MEFBXCIsXHJcbi8vICAgICB9LFxyXG4vLyAgICAgXCImIC5NdWlTbGlkZXItdGh1bWJcIjoge1xyXG4vLyAgICAgICAgIGhlaWdodDogMTgsXHJcbi8vICAgICAgICAgd2lkdGg6IDE4LFxyXG4vLyAgICAgICAgIGJhY2tncm91bmRDb2xvcjogXCIjZmZmXCIsXHJcbi8vICAgICAgICAgYm9yZGVyOiBcIjJweCBzb2xpZCBjdXJyZW50Q29sb3JcIixcclxuLy8gICAgICAgICBcIiY6Zm9jdXMsICY6aG92ZXIsICYuTXVpLWFjdGl2ZSwgJi5NdWktZm9jdXNWaXNpYmxlXCI6IHtcclxuLy8gICAgICAgICAgICAgYm94U2hhZG93OiBcImluaGVyaXRcIixcclxuLy8gICAgICAgICB9LFxyXG4vLyAgICAgICAgIFwiJjpiZWZvcmVcIjoge1xyXG4vLyAgICAgICAgICAgICBkaXNwbGF5OiBcIm5vbmVcIixcclxuLy8gICAgICAgICB9LFxyXG4vLyAgICAgfSxcclxuLy8gICAgIFwiJiAuTXVpU2xpZGVyLXZhbHVlTGFiZWxcIjoge1xyXG4vLyAgICAgICAgIGxpbmVIZWlnaHQ6IDEuMixcclxuLy8gICAgICAgICBmb250U2l6ZTogMTIsXHJcbi8vICAgICAgICAgYmFja2dyb3VuZDogXCJ1bnNldFwiLFxyXG4vLyAgICAgICAgIHBhZGRpbmc6IDAsXHJcbi8vICAgICAgICAgd2lkdGg6IDMyLFxyXG4vLyAgICAgICAgIGhlaWdodDogMzIsXHJcbi8vICAgICAgICAgYm9yZGVyUmFkaXVzOiBcIjUwJSA1MCUgNTAlIDBcIixcclxuLy8gICAgICAgICAvLyBiYWNrZ3JvdW5kQ29sb3I6IFwiIzUyYWY3N1wiLFxyXG4vLyAgICAgICAgIGJhY2tncm91bmRDb2xvcjogXCIjMTYxRDZFXCIsXHJcbi8vICAgICAgICAgdHJhbnNmb3JtT3JpZ2luOiBcImJvdHRvbSBsZWZ0XCIsXHJcbi8vICAgICAgICAgdHJhbnNmb3JtOiBcInRyYW5zbGF0ZSg1MCUsIC0xMDAlKSByb3RhdGUoLTQ1ZGVnKSBzY2FsZSgwKVwiLFxyXG4vLyAgICAgICAgIFwiJjpiZWZvcmVcIjogeyBkaXNwbGF5OiBcIm5vbmVcIiB9LFxyXG4vLyAgICAgICAgIFwiJi5NdWlTbGlkZXItdmFsdWVMYWJlbE9wZW5cIjoge1xyXG4vLyAgICAgICAgICAgICB0cmFuc2Zvcm06IFwidHJhbnNsYXRlKDUwJSwgLTEwMCUpIHJvdGF0ZSgtNDVkZWcpIHNjYWxlKDEpXCIsXHJcbi8vICAgICAgICAgfSxcclxuLy8gICAgICAgICBcIiYgPiAqXCI6IHtcclxuLy8gICAgICAgICAgICAgdHJhbnNmb3JtOiBcInJvdGF0ZSg0NWRlZylcIixcclxuLy8gICAgICAgICB9LFxyXG4vLyAgICAgfSxcclxuLy8gfSk7XHJcblxyXG5jb25zdCBQcmV0dG9TbGlkZXIgPSBzdHlsZWQoU2xpZGVyKSh7XHJcbiAgICAvLyBjb2xvcjogXCIjNTJhZjc3XCIsXHJcbiAgICAvLyBjb2xvcjogXCIjOTdERUNFXCIsXHJcbiAgICAvLyBoZWlnaHQ6IDgsXHJcbiAgICBcIiYgLk11aVNsaWRlci1yYWlsXCI6IHtcclxuICAgICAgICAvLyBvcGFjaXR5OiA1LFxyXG4gICAgICAgIGhlaWdodDogOCxcclxuICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IFwiIzUyYWY3N1wiLFxyXG4gICAgfSxcclxuICAgIFwiJiAuTXVpU2xpZGVyLXRyYWNrXCI6IHtcclxuICAgICAgICBib3JkZXI6IFwibm9uZVwiLFxyXG4gICAgICAgIGJhY2tncm91bmRDb2xvcjogXCIjNTJhZjc3XCIsXHJcbiAgICB9LFxyXG4gICAgXCImIC5NdWlTbGlkZXItdGh1bWJcIjoge1xyXG4gICAgICAgIGhlaWdodDogMjQsXHJcbiAgICAgICAgd2lkdGg6IDI0LFxyXG4gICAgICAgIGJhY2tncm91bmRDb2xvcjogXCIjZmZmXCIsXHJcbiAgICAgICAgY29sb3I6IFwiIzk3REVDRVwiLFxyXG4gICAgICAgIGJvcmRlcjogXCIycHggc29saWQgY3VycmVudENvbG9yXCIsXHJcbiAgICAgICAgXCImOmZvY3VzLCAmOmhvdmVyLCAmLk11aS1hY3RpdmUsICYuTXVpLWZvY3VzVmlzaWJsZVwiOiB7XHJcbiAgICAgICAgICAgIGJveFNoYWRvdzogXCJpbmhlcml0XCIsXHJcbiAgICAgICAgfSxcclxuICAgICAgICBcIiY6YmVmb3JlXCI6IHtcclxuICAgICAgICAgICAgZGlzcGxheTogXCJub25lXCIsXHJcbiAgICAgICAgfSxcclxuICAgIH0sXHJcbiAgICBcIiYgLk11aVNsaWRlci12YWx1ZUxhYmVsXCI6IHtcclxuICAgICAgICBsaW5lSGVpZ2h0OiAxLjIsXHJcbiAgICAgICAgZm9udFNpemU6IDEyLFxyXG4gICAgICAgIGJhY2tncm91bmQ6IFwidW5zZXRcIixcclxuICAgICAgICBwYWRkaW5nOiAwLFxyXG4gICAgICAgIHdpZHRoOiAzMixcclxuICAgICAgICBoZWlnaHQ6IDMyLFxyXG4gICAgICAgIGJvcmRlclJhZGl1czogXCI1MCUgNTAlIDUwJSAwXCIsXHJcbiAgICAgICAgLy8gYmFja2dyb3VuZENvbG9yOiBcIiM1MmFmNzdcIixcclxuICAgICAgICBiYWNrZ3JvdW5kQ29sb3I6IFwiIzYyQjZCN1wiLFxyXG4gICAgICAgIHRyYW5zZm9ybU9yaWdpbjogXCJib3R0b20gbGVmdFwiLFxyXG4gICAgICAgIHRyYW5zZm9ybTogXCJ0cmFuc2xhdGUoNTAlLCAtMTAwJSkgcm90YXRlKC00NWRlZykgc2NhbGUoMClcIixcclxuICAgICAgICBcIiY6YmVmb3JlXCI6IHsgZGlzcGxheTogXCJub25lXCIgfSxcclxuICAgICAgICBcIiYuTXVpU2xpZGVyLXZhbHVlTGFiZWxPcGVuXCI6IHtcclxuICAgICAgICAgICAgdHJhbnNmb3JtOiBcInRyYW5zbGF0ZSg1MCUsIC0xMDAlKSByb3RhdGUoLTQ1ZGVnKSBzY2FsZSgxKVwiLFxyXG4gICAgICAgIH0sXHJcbiAgICAgICAgXCImID4gKlwiOiB7XHJcbiAgICAgICAgICAgIHRyYW5zZm9ybTogXCJyb3RhdGUoNDVkZWcpXCIsXHJcbiAgICAgICAgfSxcclxuICAgIH0sXHJcbn0pO1xyXG5cclxuY29uc3QgZ3JlZW41MDAgPSBcIiMwMEJGRkZcIjtcclxuY29uc3QgZ3JlZW45MDAgPSBcIiMxRTkwRkZcIjtcclxuXHJcbmNvbnN0IEN1c3RvbVNsaWRlciA9IHN0eWxlZChTbGlkZXIpKCh7IHRoZW1lIH0pID0+ICh7XHJcbiAgICBjb2xvcjogZ3JlZW41MDAsIC8vY29sb3Igb2YgdGhlIHNsaWRlciBiZXR3ZWVuIHRodW1ic1xyXG4gICAgXCImIC5NdWlTbGlkZXItdGh1bWJcIjoge1xyXG4gICAgICAgIGJhY2tncm91bmRDb2xvcjogZ3JlZW41MDAsIC8vY29sb3Igb2YgdGh1bWJzXHJcbiAgICB9LFxyXG4gICAgXCImIC5NdWlTbGlkZXItcmFpbFwiOiB7XHJcbiAgICAgICAgY29sb3I6IGdyZWVuOTAwLCAvLy8vY29sb3Igb2YgdGhlIHNsaWRlciBvdXRzaWRlICB0ZWggYXJlYSBiZXR3ZWVuIHRodW1ic1xyXG4gICAgfSxcclxufSkpO1xyXG5cclxuY29uc3QgSW5mbyA9IHN0eWxlZC5kaXZgXHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuXHJcbiAgICAuYnRuU2F2ZSB7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogMTBweDtcclxuICAgIH1cclxuICAgIC5IZWFkZXIge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgICAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDMwcHg7XHJcbiAgICB9XHJcbiAgICAuaGVhZGVyTGFiZWwge1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICBjb2xvcjogYmxhY2s7XHJcbiAgICB9XHJcbiAgICAuaW5mbyB7XHJcbiAgICAgICAgLyogZGlzcGxheTogZmxleDsgKi9cclxuICAgICAgICAvKiBmbGV4LWRpcmVjdGlvbjogcm93OyAqL1xyXG4gICAgICAgIC8qIGFsaWduLWl0ZW1zOiBjZW50ZXI7ICovXHJcbiAgICAgICAgbWFyZ2luLWxlZnQ6IDE1cHg7XHJcbiAgICAgICAgbWFyZ2luLWJvdHRvbTogMzBweDtcclxuICAgIH1cclxuICAgIC5pbmZvRGl2IHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XHJcbiAgICAgICAgd2lkdGg6IDIwcHg7XHJcbiAgICB9XHJcbiAgICAuaW5mb0lucHV0IHtcclxuICAgICAgICAvKiBkaXNwbGF5OiBmbGV4OyAqL1xyXG4gICAgfVxyXG4gICAgLnN1YmplY3RMYWJlbCB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICB0ZXh0LWFsaWduOiBsZWZ0O1xyXG4gICAgICAgIGZvbnQtc2l6ZTogMThweDtcclxuICAgICAgICBmb250LXdlaWdodDogYm9sZDtcclxuICAgICAgICAvKiBjb2xvcjogIzQzOWE5NzsgKi9cclxuICAgICAgICBjb2xvcjogYmxhY2s7XHJcbiAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7XHJcbiAgICAgICAgdGV4dC11bmRlcmxpbmUtcG9zaXRpb246IHVuZGVyO1xyXG4gICAgICAgIC8qIHRleHQtZGVjb3JhdGlvbjogbGluZS10aHJvdWdoOyAqL1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDVweDtcclxuICAgIH1cclxuICAgIC5zdWJqZWN0U2xpZGVyIHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIHRleHQtYWxpZ246IGxlZnQ7XHJcbiAgICAgICAgZm9udC1zaXplOiAxM3B4O1xyXG4gICAgICAgIG1hcmdpbjogMHB4O1xyXG4gICAgfVxyXG4gICAgLm92ZXJhbGxMYWJlbCB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmb250LXNpemU6IDE4cHg7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgLyogY29sb3I6ICM0MzlhOTc7ICovXHJcbiAgICAgICAgY29sb3I6IGJsYWNrO1xyXG4gICAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lO1xyXG4gICAgICAgIHRleHQtdW5kZXJsaW5lLXBvc2l0aW9uOiB1bmRlcjtcclxuICAgICAgICAvKiB0ZXh0LWRlY29yYXRpb246IGxpbmUtdGhyb3VnaDsgKi9cclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAwcHg7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogMTBweDtcclxuICAgIH1cclxuICAgIC5vdmVyYWxsRGl2IHtcclxuICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgIGFsaWduLWl0ZW1zOiBmbGV4LWVuZDtcclxuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kO1xyXG4gICAgICAgIC8qIG1hcmdpbjogMHB4OyAqL1xyXG4gICAgfVxyXG4gICAgLlJlc3VsdCB7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogMjBweDtcclxuICAgIH1cclxuICAgIC5yZXN1bHRMYWJlbCB7XHJcbiAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICBmb250LXNpemU6IDI1cHg7XHJcbiAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICAgICAgLyogY29sb3I6ICM0MzlhOTc7ICovXHJcbiAgICAgICAgY29sb3I6IGJsYWNrO1xyXG4gICAgICAgIG1hcmdpbi1ib3R0b206IDBweDtcclxuICAgICAgICBtYXJnaW4tdG9wOiAwcHg7XHJcbiAgICAgICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgfVxyXG4gICAgLnJlc3VsdENvbW1lbnQge1xyXG4gICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgLyogZm9udC1zaXplOiA1MHB4OyAqL1xyXG4gICAgICAgIC8qIGZvbnQtd2VpZ2h0OiBib2xkOyAqL1xyXG4gICAgICAgIC8qIGNvbG9yOiAjNDM5YTk3OyAqL1xyXG4gICAgICAgIGNvbG9yOiBibGFjaztcclxuICAgICAgICBtYXJnaW4tYm90dG9tOiAwcHg7XHJcbiAgICAgICAgbWFyZ2luLXRvcDogMHB4O1xyXG4gICAgICAgIC8qIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjsgKi9cclxuICAgIH1cclxuYDtcclxuIl0sIm5hbWVzIjpbIlJlYWN0IiwidXNlQ2FsbGJhY2siLCJ1c2VTdGF0ZSIsInVzZUVmZmVjdCIsInN0eWxlZCIsIklucHV0IiwiQnV0dG9uIiwiRm9ybUNvbnRyb2wiLCJJbnB1dExhYmVsIiwiSGVhZGVyIiwiU2xpZGVyIiwiU2xpZGVyVGh1bWIiLCJTbGlkZXJWYWx1ZUxhYmVsUHJvcHMiLCJCb3giLCJHcmlkIiwiVHlwb2dyYXBoeSIsIk11aUlucHV0IiwiVm9sdW1lVXAiLCJUb29sdGlwIiwiVGFibGUiLCJUYWJsZUJvZHkiLCJUYWJsZUNlbGwiLCJUYWJsZUNvbnRhaW5lciIsIlRhYmxlSGVhZCIsIlRhYmxlUm93IiwiUGFwZXIiLCJUZXh0RmllbGQiLCJheGlvcyIsIlN0YWNrIiwidXNlUm91dGVyIiwiRGF0YUdyaWQiLCJHcmlkQ29sRGVmIiwiR3JpZFZhbHVlR2V0dGVyUGFyYW1zIiwiY3JlYXRlVGhlbWUiLCJUaGVtZVByb3ZpZGVyIiwiVmFsdWVMYWJlbENvbXBvbmVudCIsInByb3BzIiwiY2hpbGRyZW4iLCJ2YWx1ZSIsImNhbGN1bGF0ZSIsImFycmF5IiwibGVuIiwibnVtIiwicmVkdWNlIiwiYSIsImIiLCJ0b0ZpeGVkIiwiZXgyIiwicm91dGVyIiwibmFtZSIsInNldE5hbWUiLCJzY2hvb2wiLCJzZXRTY2hvb2wiLCJyZXN1bHRfY2xhc3MiLCJzZXRSZXN1bHRDbGFzcyIsInJlc3VsdF9jb21tZW50Iiwic2V0Q29tbWVudCIsInN1YjEiLCJzZXRTdWIxIiwic3ViMiIsInNldFN1YjIiLCJzdWIzIiwic2V0U3ViMyIsIm92ZXJhbGwxIiwic2V0T3ZlcmFsbDEiLCJzdWI0Iiwic2V0U3ViNCIsInN1YjUiLCJzZXRTdWI1Iiwib3ZlcmFsbDIiLCJzZXRPdmVyYWxsMiIsInN1YjYiLCJzZXRTdWI2Iiwic3ViNyIsInNldFN1YjciLCJzdWI4Iiwic2V0U3ViOCIsIm92ZXJhbGwzIiwic2V0T3ZlcmFsbDMiLCJzdWI5Iiwic2V0U3ViOSIsInN1YjEwIiwic2V0U3ViMTAiLCJzdWIxMSIsInNldFN1YjExIiwic3ViMTIiLCJzZXRTdWIxMiIsInN1YjEzIiwic2V0U3ViMTMiLCJvdmVyYWxsNCIsInNldE92ZXJhbGw0Iiwic3ViMTQiLCJzZXRTdWIxNCIsInN1YjE1Iiwic2V0U3ViMTUiLCJzdWIxNiIsInNldFN1YjE2Iiwic3ViMTciLCJzZXRTdWIxNyIsInN1YjE4Iiwic2V0U3ViMTgiLCJvdmVyYWxsNSIsInNldE92ZXJhbGw1Iiwic3VtX292ZXJhbGwxIiwic2V0U3VtT3ZlcmFsbDEiLCJzdW1fb3ZlcmFsbDIiLCJzZXRTdW1PdmVyYWxsMiIsInN1bV9vdmVyYWxsMyIsInNldFN1bU92ZXJhbGwzIiwiZGF0YSIsIlJFU1VMVDAxIiwiUkVTVUxUMDIiLCJSRVNVTFQwMyIsIlJFU1VMVDA0IiwiUkVTVUxUMDUiLCJSRVNVTFQwNiIsIlJFU1VMVDA3IiwiUkVTVUxUMDgiLCJSRVNVTFQwOSIsIlJFU1VMVDEwIiwiUkVTVUxUMTEiLCJSRVNVTFQxMiIsIlJFU1VMVDEzIiwiUkVTVUxUMTQiLCJSRVNVTFQxNSIsIlJFU1VMVDE2IiwiUkVTVUxUMTciLCJSRVNVTFQxOCIsIkNMQVNTIiwiQ09NTUVOVCIsIk5BTUUiLCJTQ0hPT0wiLCJzdW0iLCJvbkNoYW5nZSIsImUiLCJ0YXJnZXQiLCJvbkNoYW5nZTIiLCJoYW5kbGVTbGlkZXJDaGFuZ2UiLCJldmVudCIsIm5ld1ZhbHVlIiwiaGFuZGxlSW5wdXRDaGFuZ2UiLCJOdW1iZXIiLCJoYW5kbGVCbHVyIiwiY29uc29sZSIsImxvZyIsIlNhdmUiLCJmZXRjaCIsIm1ldGhvZCIsImhlYWRlcnMiLCJib2R5IiwiSlNPTiIsInN0cmluZ2lmeSIsInJlc3VsdDAxIiwicmVzdWx0MDIiLCJyZXN1bHQwMyIsInJlc3VsdDA0IiwicmVzdWx0MDUiLCJyZXN1bHQwNiIsInJlc3VsdDA3IiwicmVzdWx0MDgiLCJyZXN1bHQwOSIsInJlc3VsdDEwIiwicmVzdWx0MTEiLCJyZXN1bHQxMiIsInJlc3VsdDEzIiwicmVzdWx0MTQiLCJyZXN1bHQxNSIsInJlc3VsdDE2IiwicmVzdWx0MTciLCJyZXN1bHQxOCIsImNvbW1lbnQiLCJ0aGVuIiwicmVzIiwiY2FsbEJhY2siLCJzdGF0dXMiLCJhbGVydCIsIndpbmRvdyIsImxvY2F0aW9uIiwiaHJlZiIsIm1lc3NhZ2UiLCJwdCIsInN0eWxlIiwiZm9udFNpemUiLCJ3aWR0aCIsInRleHRBbGlnbiIsInN0ZXAiLCJtaW4iLCJtYXgiLCJ0eXBlIiwicmVhZE9ubHkiLCJtaW5XaWR0aCIsInBhZGRpbmciLCJmb250V2VpZ2h0IiwiYm9yZGVyIiwiYm9yZGVyUmlnaHQiLCJnZXRTZXJ2ZXJTaWRlUHJvcHMiLCJjb250ZXh0IiwiaWQiLCJxdWVyeSIsImdldCIsInBhcmFtcyIsIlByZXR0b1NsaWRlciIsImhlaWdodCIsImJhY2tncm91bmRDb2xvciIsImNvbG9yIiwiYm94U2hhZG93IiwiZGlzcGxheSIsImxpbmVIZWlnaHQiLCJiYWNrZ3JvdW5kIiwiYm9yZGVyUmFkaXVzIiwidHJhbnNmb3JtT3JpZ2luIiwidHJhbnNmb3JtIiwiZ3JlZW41MDAiLCJncmVlbjkwMCIsIkN1c3RvbVNsaWRlciIsInRoZW1lIiwiSW5mbyIsImRpdiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./pages/ex2_2.js\n");
 
 /***/ }),
 
-/***/ 8610:
+/***/ "./pages/ex_header.js":
+/*!****************************!*\
+  !*** ./pages/ex_header.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-components */ \"styled-components\");\n/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_components__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__);\nvar _jsxFileName = \"D:\\\\test\\\\pages\\\\ex_header.js\";\n\n\n\n\nfunction ex_header(props) {\n  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(Main, {\n    children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"div\", {\n      children: /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_2__.jsxDEV)(\"h1\", {\n        children: \"RITE EXAMPLE TEST\"\n      }, void 0, false, {\n        fileName: _jsxFileName,\n        lineNumber: 8,\n        columnNumber: 17\n      }, this)\n    }, void 0, false, {\n      fileName: _jsxFileName,\n      lineNumber: 7,\n      columnNumber: 13\n    }, this)\n  }, void 0, false, {\n    fileName: _jsxFileName,\n    lineNumber: 6,\n    columnNumber: 9\n  }, this);\n}\n\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (ex_header);\nconst Main = /*#__PURE__*/styled_components__WEBPACK_IMPORTED_MODULE_1___default().div.withConfig({\n  displayName: \"ex_header__Main\",\n  componentId: \"sc-4zij6p-0\"\n})([\"width:auto;display:flex;flex-direction:column;justify-content:center;align-items:center;.btnSave{margin-top:10px;}\"]);//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9leF9oZWFkZXIuanMuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFBQTtBQUNBOzs7QUFFQSxTQUFTRSxTQUFULENBQW1CQyxLQUFuQixFQUEwQjtBQUN0QixzQkFDSSw4REFBQyxJQUFEO0FBQUEsMkJBQ0k7QUFBQSw2QkFDSTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQURKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFESjtBQUFBO0FBQUE7QUFBQTtBQUFBLFVBREo7QUFPSDs7QUFFRCxpRUFBZUQsU0FBZjtBQUVBLE1BQU1FLElBQUksZ0JBQUdILHVFQUFIO0FBQUE7QUFBQTtBQUFBLDBIQUFWIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vdGVzdC8uL3BhZ2VzL2V4X2hlYWRlci5qcz80MGFkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IHN0eWxlZCBmcm9tIFwic3R5bGVkLWNvbXBvbmVudHNcIjtcclxuXHJcbmZ1bmN0aW9uIGV4X2hlYWRlcihwcm9wcykge1xyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8TWFpbj5cclxuICAgICAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgICAgIDxoMT5SSVRFIEVYQU1QTEUgVEVTVDwvaDE+XHJcbiAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgIDwvTWFpbj5cclxuICAgICk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IGV4X2hlYWRlcjtcclxuXHJcbmNvbnN0IE1haW4gPSBzdHlsZWQuZGl2YFxyXG4gICAgd2lkdGg6IGF1dG87XHJcbiAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIC5idG5TYXZlIHtcclxuICAgICAgICBtYXJnaW4tdG9wOiAxMHB4O1xyXG4gICAgfVxyXG5gO1xyXG4iXSwibmFtZXMiOlsiUmVhY3QiLCJzdHlsZWQiLCJleF9oZWFkZXIiLCJwcm9wcyIsIk1haW4iLCJkaXYiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./pages/ex_header.js\n");
+
+/***/ }),
+
+/***/ "@mui/icons-material/VolumeUp":
+/*!***********************************************!*\
+  !*** external "@mui/icons-material/VolumeUp" ***!
+  \***********************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/icons-material/VolumeUp");
 
 /***/ }),
 
-/***/ 19:
+/***/ "@mui/material/Box":
+/*!************************************!*\
+  !*** external "@mui/material/Box" ***!
+  \************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Box");
 
 /***/ }),
 
-/***/ 3819:
+/***/ "@mui/material/Button":
+/*!***************************************!*\
+  !*** external "@mui/material/Button" ***!
+  \***************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Button");
 
 /***/ }),
 
-/***/ 8891:
+/***/ "@mui/material/FormControl":
+/*!********************************************!*\
+  !*** external "@mui/material/FormControl" ***!
+  \********************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/FormControl");
 
 /***/ }),
 
-/***/ 5612:
+/***/ "@mui/material/Grid":
+/*!*************************************!*\
+  !*** external "@mui/material/Grid" ***!
+  \*************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Grid");
 
 /***/ }),
 
-/***/ 1582:
+/***/ "@mui/material/Input":
+/*!**************************************!*\
+  !*** external "@mui/material/Input" ***!
+  \**************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Input");
 
 /***/ }),
 
-/***/ 911:
+/***/ "@mui/material/InputLabel":
+/*!*******************************************!*\
+  !*** external "@mui/material/InputLabel" ***!
+  \*******************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/InputLabel");
 
 /***/ }),
 
-/***/ 1598:
+/***/ "@mui/material/Paper":
+/*!**************************************!*\
+  !*** external "@mui/material/Paper" ***!
+  \**************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Paper");
 
 /***/ }),
 
-/***/ 3682:
+/***/ "@mui/material/Slider":
+/*!***************************************!*\
+  !*** external "@mui/material/Slider" ***!
+  \***************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Slider");
 
 /***/ }),
 
-/***/ 8742:
+/***/ "@mui/material/Stack":
+/*!**************************************!*\
+  !*** external "@mui/material/Stack" ***!
+  \**************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Stack");
 
 /***/ }),
 
-/***/ 9181:
+/***/ "@mui/material/Table":
+/*!**************************************!*\
+  !*** external "@mui/material/Table" ***!
+  \**************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Table");
 
 /***/ }),
 
-/***/ 8823:
+/***/ "@mui/material/TableBody":
+/*!******************************************!*\
+  !*** external "@mui/material/TableBody" ***!
+  \******************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/TableBody");
 
 /***/ }),
 
-/***/ 8099:
+/***/ "@mui/material/TableCell":
+/*!******************************************!*\
+  !*** external "@mui/material/TableCell" ***!
+  \******************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/TableCell");
 
 /***/ }),
 
-/***/ 443:
+/***/ "@mui/material/TableContainer":
+/*!***********************************************!*\
+  !*** external "@mui/material/TableContainer" ***!
+  \***********************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/TableContainer");
 
 /***/ }),
 
-/***/ 5953:
+/***/ "@mui/material/TableHead":
+/*!******************************************!*\
+  !*** external "@mui/material/TableHead" ***!
+  \******************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/TableHead");
 
 /***/ }),
 
-/***/ 4848:
+/***/ "@mui/material/TableRow":
+/*!*****************************************!*\
+  !*** external "@mui/material/TableRow" ***!
+  \*****************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/TableRow");
 
 /***/ }),
 
-/***/ 6042:
+/***/ "@mui/material/TextField":
+/*!******************************************!*\
+  !*** external "@mui/material/TextField" ***!
+  \******************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/TextField");
 
 /***/ }),
 
-/***/ 7229:
+/***/ "@mui/material/Tooltip":
+/*!****************************************!*\
+  !*** external "@mui/material/Tooltip" ***!
+  \****************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Tooltip");
 
 /***/ }),
 
-/***/ 7163:
+/***/ "@mui/material/Typography":
+/*!*******************************************!*\
+  !*** external "@mui/material/Typography" ***!
+  \*******************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/Typography");
 
 /***/ }),
 
-/***/ 8442:
+/***/ "@mui/material/styles":
+/*!***************************************!*\
+  !*** external "@mui/material/styles" ***!
+  \***************************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/material/styles");
 
 /***/ }),
 
-/***/ 7738:
+/***/ "@mui/x-data-grid":
+/*!***********************************!*\
+  !*** external "@mui/x-data-grid" ***!
+  \***********************************/
 /***/ ((module) => {
 
 module.exports = require("@mui/x-data-grid");
 
 /***/ }),
 
-/***/ 1853:
+/***/ "next/router":
+/*!******************************!*\
+  !*** external "next/router" ***!
+  \******************************/
 /***/ ((module) => {
 
 module.exports = require("next/router");
 
 /***/ }),
 
-/***/ 6689:
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
 /***/ ((module) => {
 
 module.exports = require("react");
 
 /***/ }),
 
-/***/ 997:
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
 /***/ ((module) => {
 
-module.exports = require("react/jsx-runtime");
+module.exports = require("react/jsx-dev-runtime");
 
 /***/ }),
 
-/***/ 7518:
+/***/ "styled-components":
+/*!************************************!*\
+  !*** external "styled-components" ***!
+  \************************************/
 /***/ ((module) => {
 
 module.exports = require("styled-components");
 
 /***/ }),
 
-/***/ 9648:
+/***/ "axios":
+/*!************************!*\
+  !*** external "axios" ***!
+  \************************/
 /***/ ((module) => {
 
 module.exports = import("axios");;
@@ -1923,7 +300,7 @@ module.exports = import("axios");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [142], () => (__webpack_exec__(6897)));
+var __webpack_exports__ = (__webpack_exec__("./pages/ex2_2.js"));
 module.exports = __webpack_exports__;
 
 })();

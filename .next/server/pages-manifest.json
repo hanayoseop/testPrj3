@@ -1,22 +1,7 @@
 {
-  "/_error": "pages/_error.js",
-  "/api/list2": "pages/api/list2.js",
-  "/api/name": "pages/api/name.js",
-  "/api/save_ex1": "pages/api/save_ex1.js",
-  "/api/save_ex2": "pages/api/save_ex2.js",
-  "/api/test": "pages/api/test.js",
-  "/ex1 copy": "pages/ex1 copy.html",
-  "/ex1": "pages/ex1.html",
-  "/ex2 copy": "pages/ex2 copy.html",
-  "/ex2": "pages/ex2.html",
-  "/ex_header": "pages/ex_header.html",
-  "/": "pages/index.html",
-  "/ex1_2 copy": "pages/ex1_2 copy.js",
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
-  "/ex1_2": "pages/ex1_2.js",
-  "/ex2_2 copy": "pages/ex2_2 copy.js",
-  "/exList": "pages/exList.html",
+  "/_error": "pages/_error.js",
   "/ex2_2": "pages/ex2_2.js",
-  "/404": "pages/404.html"
+  "/exList": "pages/exList.js"
 }
