@@ -1472,7 +1472,7 @@ export async function getServerSideProps(context) {
     //     .then((data) => console.log(data));
 
     const res = await axios
-        .get(`/api/list2`, {
+        .get(`http://127.0.0.1:80/api/list2`, {
             params: {
                 id: id,
             },

@@ -76,7 +76,7 @@ function exList(props) {
                 ) : (
                     <Link
                         href={{
-                            pathname: "/ex2_2",
+                            pathname: "/ex2_2/",
                             query: { id: params.row.id },
                         }}
                     >
