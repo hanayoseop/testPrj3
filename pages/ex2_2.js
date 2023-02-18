@@ -1498,12 +1498,18 @@ export async function getServerSideProps(context) {
 
 const PrettoSlider = styled(Slider)({
     // color: "#52af77",
-    color: "#97DECE",
-    height: 6,
-    marginTop: 1,
-    marginBottom: 1,
+    // color: "#97DECE",
+    // height: 6,
+    // marginTop: 1,
+    // marginBottom: 1,
+    "& .MuiSlider-rail": {
+        // opacity: 5,
+        height: 6,
+        backgroundColor: "#97DECE",
+    },
     "& .MuiSlider-track": {
         border: "none",
+        backgroundColor: "#97DECE",
     },
     "&.Mui-disabled": {
         color: "#97DECE",
@@ -1544,15 +1550,21 @@ const PrettoSlider = styled(Slider)({
 
 const PrettoSlider2 = styled(Slider)({
     // color: "#52af77",
-    color: "#1160AA",
-    height: 6,
-    marginTop: 1,
-    marginBottom: 1,
+    // color: "#1160AA",
+    // height: 6,
+    // marginTop: 1,
+    // marginBottom: 1,
+    "& .MuiSlider-rail": {
+        // opacity: 5,
+        height: 6,
+        backgroundColor: "#1160AA",
+    },
     "& .MuiSlider-track": {
         border: "none",
+        backgroundColor: "#1160AA",
     },
     "&.Mui-disabled": {
-        backgroundColor: "#1160AA",
+        color: "#1160AA",
     },
     "& .MuiSlider-thumb": {
         height: 18,
