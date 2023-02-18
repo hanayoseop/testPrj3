@@ -1551,7 +1551,7 @@ const PrettoSlider2 = styled(Slider)({
         border: "none",
     },
     "&.Mui-disabled": {
-        color: "#1160AA",
+        backgroundColor: "#1160AA",
     },
     "& .MuiSlider-thumb": {
         height: 18,

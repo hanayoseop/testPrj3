@@ -58,7 +58,7 @@ function calculate(array) {
     }
 }
 
-function ex1(props) {
+function ex1_2(props) {
     const router = useRouter();
     const [name, setName] = useState("");
     const [school, setSchool] = useState("");
@@ -79,6 +79,7 @@ function ex1(props) {
 
     const [sum_overall, setSumOverall] = useState(0);
     const [tableData, setTableData] = useState();
+    // const id = context.query.id;
 
     // useEffect
     // [sub1, sub2, sub3, sub4, sub5, sub6, sub7] 배열안에 있는 useState 값이 바뀌면
@@ -86,26 +87,41 @@ function ex1(props) {
     // console.log(sum);
     // setOverall1(sum);
 
-    // useEffect(() => {
-    //     console.log(props.data);
-    //     console.log(props.data.NO);
-    //     setSub1(props.data.RESULT01);
-    //     setSub2(props.data.RESULT02);
-    //     setSub3(props.data.RESULT03);
-    //     setSub4(props.data.RESULT04);
-    //     setSub5(props.data.RESULT05);
-    //     setSub6(props.data.RESULT06);
-    //     setSub7(props.data.RESULT07);
-    //     setSub8(props.data.RESULT08);
-    //     setSub9(props.data.RESULT09);
-    //     setSub10(props.data.RESULT10);
+    useEffect(() => {
+        console.log(props.data);
+        console.log(props.data.NO);
+        setSub1(props.data.RESULT01);
+        setSub2(props.data.RESULT02);
+        setSub3(props.data.RESULT03);
+        setSub4(props.data.RESULT04);
+        setSub5(props.data.RESULT05);
+        setSub6(props.data.RESULT06);
+        setSub7(props.data.RESULT07);
+        setSub8(props.data.RESULT08);
+        setSub9(props.data.RESULT09);
+        setSub10(props.data.RESULT10);
 
-    //     setResultClass(props.data.CLASS);
-    //     setComment(props.data.COMMENT);
+        setResultClass(props.data.CLASS);
+        setComment(props.data.COMMENT);
 
-    //     setName(props.data.NAME);
-    //     setSchool(props.data.SCHOOL);
-    // }, []);
+        setName(props.data.NAME);
+        setSchool(props.data.SCHOOL);
+    }, []);
+
+    // function selectList() {
+    //     console.log(props);
+    //     useEffect(() => {
+    //         fetch(`/api/list2/id=${props.id}`)
+    //             .then((data) => data.json())
+    //             .then((data) => console.log(data));
+    //     }, []);
+    //     // fetch("http://localhost:3000/api/test")
+    //     //     .then((res) => callBack(result))
+    //     //     .then((data) => console.log(data));
+    // }
+
+    // selectList();
+
     useEffect(() => {
         let sum = calculate([sub1, sub2, sub3, sub4, sub5, sub6, sub7]);
         // console.log(sum);
@@ -1013,63 +1029,77 @@ function ex1(props) {
         </Info>
     );
 }
-// export async function getServerSideProps(context) {
-//     // api 이용해서 데이터 불러오기 (async, await으로 기다려주기)
-//     const id = context.query.id;
-//     console.log(id);
-//     // const res = await fetch("https://example_site.com/user_data");
-//     // fetch("http://localhost:3000/api/list2")
-//     // const res = fetch("http://localhost:3000/api/list2", {
-//     //     method: "GET",
-//     //     headers: {
-//     //         "Content-Type": "application/json",
-//     //     },
-//     //     body: JSON.stringify({
-//     //         no: id,
-//     //     }),
-//     // });
-//     // const res = fetch(`http://localhost:3000/api/list2/${id}`, {
-//     //     headers: {
-//     //         Accept: "application/json",
-//     //     },
-//     // })
-//     //     .then((data) => data.json())
-//     //     .then((data) => console.log(data));
 
-//     // const res = await axios
-//     //     // .get(`http://localhost:3000/api/list2`, {
-//     //     .get(`api/list2`, {
-//     //         params: {
-//     //             id: id,
-//     //         },
-//     //         headers: {
-//     //             "Content-Type": "application/json",
-//     //         },
-//     //     })
-//     //     .then(function (res) {
-//     //         console.log(res.data[0]);
-//     //         return res.data[0];
-//     //     });
+export default ex1_2;
 
-//     // // page에 props로 전달하기위해, json 형식으로 변경해주기
-//     // // 페이지 props로 전달하기 (json 형식만 가능)
+export async function getServerSideProps(context) {
+    //     // api 이용해서 데이터 불러오기 (async, await으로 기다려주기)
+    const id = context.query.id;
+    console.log(id);
+    // console.log(context);
+    // const res = await fetch("https://example_site.com/user_data");
+    // fetch("http://localhost:3000/api/list2")
+    // const res = fetch("http://localhost:3000/api/list2", {
+    //     method: "GET",
+    //     headers: {
+    //         "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify({
+    //         no: id,
+    //     }),
+    // });
+    // const res = fetch(`http://localhost:3000/api/list2/${id}`, {
+    //     headers: {
+    //         Accept: "application/json",
+    //     },
+    // })
+    //     .then((data) => data.json())
+    //     .then((data) => console.log(data));
 
-//     // return {
-//     //     props: {
-//     //         data: res,
-//     //     },
-//     // };
-// }
+    console.log(`${process.env.VERCEL_URL}/api/list2`);
+    const res = await axios
+        // .get(`http://localhost:3000/api/list2`, {
+        .get(`${process.env.VERCEL_URL}/api/list2`, {
+            // .post(`/api/list2`, {
+            params: {
+                id: id,
+            },
+            headers: {
+                "Content-Type": "application/json",
+            },
+            // validateStatus: function (status) {
+            //     return status < 500; // Resolve only if the status code is less than 500
+            // },
+        })
+        .then(function (res) {
+            console.log(res.data[0]);
+            return res.data[0];
+        });
 
-export default ex1;
+    // // page에 props로 전달하기위해, json 형식으로 변경해주기
+    // 페이지 props로 전달하기 (json 형식만 가능)
+
+    return {
+        props: {
+            data: res,
+        },
+    };
+}
+
 const PrettoSlider = styled(Slider)({
     // color: "#52af77",
-    color: "#97DECE",
-    height: 6,
-    marginTop: 1,
-    marginBottom: 1,
+    // color: "#97DECE",
+    // height: 6,
+    // marginTop: 1,
+    // marginBottom: 1,
+    "& .MuiSlider-rail": {
+        // opacity: 5,
+        height: 6,
+        backgroundColor: "#97DECE",
+    },
     "& .MuiSlider-track": {
         border: "none",
+        backgroundColor: "#97DECE",
     },
     "&.Mui-disabled": {
         color: "#97DECE",
@@ -1110,12 +1140,18 @@ const PrettoSlider = styled(Slider)({
 
 const PrettoSlider2 = styled(Slider)({
     // color: "#52af77",
-    color: "#1160AA",
-    height: 6,
-    marginTop: 1,
-    marginBottom: 1,
+    // color: "#1160AA",
+    // height: 6,
+    // marginTop: 1,
+    // marginBottom: 1,
+    "& .MuiSlider-rail": {
+        // opacity: 5,
+        height: 6,
+        backgroundColor: "#1160AA",
+    },
     "& .MuiSlider-track": {
         border: "none",
+        backgroundColor: "#1160AA",
     },
     "&.Mui-disabled": {
         color: "#1160AA",

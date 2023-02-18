@@ -29,11 +29,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/ex1_2.js"
-    ],
-    "/exList": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/exList.js"
     ]
   },
   "ampFirstPages": []
