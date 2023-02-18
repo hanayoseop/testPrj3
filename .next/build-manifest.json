@@ -15,6 +15,11 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -25,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/ex2_2": [
+    "/ex1_2": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ex2_2.js"
+      "static/chunks/pages/ex1_2.js"
     ],
     "/exList": [
       "static/chunks/webpack.js",

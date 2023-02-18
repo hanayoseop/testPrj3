@@ -1036,29 +1036,29 @@ export async function getServerSideProps(context) {
     //     .then((data) => data.json())
     //     .then((data) => console.log(data));
 
-    const res = await axios
-        // .get(`http://localhost:3000/api/list2`, {
-        .get(`http://127.0.0.1:80/api/list2`, {
-            params: {
-                id: id,
-            },
-            headers: {
-                "Content-Type": "application/json",
-            },
-        })
-        .then(function (res) {
-            console.log(res.data[0]);
-            return res.data[0];
-        });
+    // const res = await axios
+    //     // .get(`http://localhost:3000/api/list2`, {
+    //     .get(`api/list2`, {
+    //         params: {
+    //             id: id,
+    //         },
+    //         headers: {
+    //             "Content-Type": "application/json",
+    //         },
+    //     })
+    //     .then(function (res) {
+    //         console.log(res.data[0]);
+    //         return res.data[0];
+    //     });
 
-    // page에 props로 전달하기위해, json 형식으로 변경해주기
-    // 페이지 props로 전달하기 (json 형식만 가능)
+    // // page에 props로 전달하기위해, json 형식으로 변경해주기
+    // // 페이지 props로 전달하기 (json 형식만 가능)
 
-    return {
-        props: {
-            data: res,
-        },
-    };
+    // return {
+    //     props: {
+    //         data: res,
+    //     },
+    // };
 }
 
 export default ex1;
