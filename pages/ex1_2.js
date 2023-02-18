@@ -86,26 +86,26 @@ function ex1(props) {
     // console.log(sum);
     // setOverall1(sum);
 
-    useEffect(() => {
-        console.log(props.data);
-        console.log(props.data.NO);
-        setSub1(props.data.RESULT01);
-        setSub2(props.data.RESULT02);
-        setSub3(props.data.RESULT03);
-        setSub4(props.data.RESULT04);
-        setSub5(props.data.RESULT05);
-        setSub6(props.data.RESULT06);
-        setSub7(props.data.RESULT07);
-        setSub8(props.data.RESULT08);
-        setSub9(props.data.RESULT09);
-        setSub10(props.data.RESULT10);
+    // useEffect(() => {
+    //     console.log(props.data);
+    //     console.log(props.data.NO);
+    //     setSub1(props.data.RESULT01);
+    //     setSub2(props.data.RESULT02);
+    //     setSub3(props.data.RESULT03);
+    //     setSub4(props.data.RESULT04);
+    //     setSub5(props.data.RESULT05);
+    //     setSub6(props.data.RESULT06);
+    //     setSub7(props.data.RESULT07);
+    //     setSub8(props.data.RESULT08);
+    //     setSub9(props.data.RESULT09);
+    //     setSub10(props.data.RESULT10);
 
-        setResultClass(props.data.CLASS);
-        setComment(props.data.COMMENT);
+    //     setResultClass(props.data.CLASS);
+    //     setComment(props.data.COMMENT);
 
-        setName(props.data.NAME);
-        setSchool(props.data.SCHOOL);
-    }, []);
+    //     setName(props.data.NAME);
+    //     setSchool(props.data.SCHOOL);
+    // }, []);
     useEffect(() => {
         let sum = calculate([sub1, sub2, sub3, sub4, sub5, sub6, sub7]);
         // console.log(sum);
@@ -1013,73 +1013,71 @@ function ex1(props) {
         </Info>
     );
 }
-export async function getServerSideProps(context) {
-    // api 이용해서 데이터 불러오기 (async, await으로 기다려주기)
-    const id = context.query.id;
-    console.log(id);
-    // const res = await fetch("https://example_site.com/user_data");
-    // fetch("http://localhost:3000/api/list2")
-    // const res = fetch("http://localhost:3000/api/list2", {
-    //     method: "GET",
-    //     headers: {
-    //         "Content-Type": "application/json",
-    //     },
-    //     body: JSON.stringify({
-    //         no: id,
-    //     }),
-    // });
-    // const res = fetch(`http://localhost:3000/api/list2/${id}`, {
-    //     headers: {
-    //         Accept: "application/json",
-    //     },
-    // })
-    //     .then((data) => data.json())
-    //     .then((data) => console.log(data));
+// export async function getServerSideProps(context) {
+//     // api 이용해서 데이터 불러오기 (async, await으로 기다려주기)
+//     const id = context.query.id;
+//     console.log(id);
+//     // const res = await fetch("https://example_site.com/user_data");
+//     // fetch("http://localhost:3000/api/list2")
+//     // const res = fetch("http://localhost:3000/api/list2", {
+//     //     method: "GET",
+//     //     headers: {
+//     //         "Content-Type": "application/json",
+//     //     },
+//     //     body: JSON.stringify({
+//     //         no: id,
+//     //     }),
+//     // });
+//     // const res = fetch(`http://localhost:3000/api/list2/${id}`, {
+//     //     headers: {
+//     //         Accept: "application/json",
+//     //     },
+//     // })
+//     //     .then((data) => data.json())
+//     //     .then((data) => console.log(data));
 
-    // const res = await axios
-    //     // .get(`http://localhost:3000/api/list2`, {
-    //     .get(`api/list2`, {
-    //         params: {
-    //             id: id,
-    //         },
-    //         headers: {
-    //             "Content-Type": "application/json",
-    //         },
-    //     })
-    //     .then(function (res) {
-    //         console.log(res.data[0]);
-    //         return res.data[0];
-    //     });
+//     // const res = await axios
+//     //     // .get(`http://localhost:3000/api/list2`, {
+//     //     .get(`api/list2`, {
+//     //         params: {
+//     //             id: id,
+//     //         },
+//     //         headers: {
+//     //             "Content-Type": "application/json",
+//     //         },
+//     //     })
+//     //     .then(function (res) {
+//     //         console.log(res.data[0]);
+//     //         return res.data[0];
+//     //     });
 
-    // // page에 props로 전달하기위해, json 형식으로 변경해주기
-    // // 페이지 props로 전달하기 (json 형식만 가능)
+//     // // page에 props로 전달하기위해, json 형식으로 변경해주기
+//     // // 페이지 props로 전달하기 (json 형식만 가능)
 
-    // return {
-    //     props: {
-    //         data: res,
-    //     },
-    // };
-}
+//     // return {
+//     //     props: {
+//     //         data: res,
+//     //     },
+//     // };
+// }
 
 export default ex1;
 const PrettoSlider = styled(Slider)({
     // color: "#52af77",
-    // color: "#97DECE",
-    // height: 8,
-    "& .MuiSlider-rail": {
-        // opacity: 5,
-        height: 8,
-        backgroundColor: "#52af77",
-    },
+    color: "#97DECE",
+    height: 6,
+    marginTop: 1,
+    marginBottom: 1,
     "& .MuiSlider-track": {
         border: "none",
-        backgroundColor: "#52af77",
+    },
+    "&.Mui-disabled": {
+        color: "#97DECE",
     },
     "& .MuiSlider-thumb": {
-        height: 24,
-        width: 24,
+        height: 18,
+        width: 18,
         backgroundColor: "#fff",
-        color: "#97DECE",
         border: "2px solid currentColor",
         "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
             boxShadow: "inherit",
@@ -1098,6 +1096,52 @@ const PrettoSlider = styled(Slider)({
         borderRadius: "50% 50% 50% 0",
         // backgroundColor: "#52af77",
         backgroundColor: "#62B6B7",
+        transformOrigin: "bottom left",
+        transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
+        "&:before": { display: "none" },
+        "&.MuiSlider-valueLabelOpen": {
+            transform: "translate(50%, -100%) rotate(-45deg) scale(1)",
+        },
+        "& > *": {
+            transform: "rotate(45deg)",
+        },
+    },
+});
+
+const PrettoSlider2 = styled(Slider)({
+    // color: "#52af77",
+    color: "#1160AA",
+    height: 6,
+    marginTop: 1,
+    marginBottom: 1,
+    "& .MuiSlider-track": {
+        border: "none",
+    },
+    "&.Mui-disabled": {
+        color: "#1160AA",
+    },
+    "& .MuiSlider-thumb": {
+        height: 18,
+        width: 18,
+        backgroundColor: "#fff",
+        border: "2px solid currentColor",
+        "&:focus, &:hover, &.Mui-active, &.Mui-focusVisible": {
+            boxShadow: "inherit",
+        },
+        "&:before": {
+            display: "none",
+        },
+    },
+    "& .MuiSlider-valueLabel": {
+        lineHeight: 1.2,
+        fontSize: 12,
+        background: "unset",
+        padding: 0,
+        width: 32,
+        height: 32,
+        borderRadius: "50% 50% 50% 0",
+        // backgroundColor: "#52af77",
+        backgroundColor: "#161D6E",
         transformOrigin: "bottom left",
         transform: "translate(50%, -100%) rotate(-45deg) scale(0)",
         "&:before": { display: "none" },

@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/ex1_2": "pages/ex1_2.js",
   "/exList": "pages/exList.js",
-  "/": "pages/index.js",
+  "/ex1_2": "pages/ex1_2.js",
   "/api/test": "pages/api/test.js"
 }
